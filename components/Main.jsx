@@ -12,9 +12,9 @@ const Main = () => {
             LET'S BUILD SOMETHING TOGETHER!
           </p>
           <h1 className="py-4 text-gray-700">
-            Hi, I'm <span className="text-[#cb6ce6]"> Enrique</span>
+            Hi, I'm <span className="text-[#5e9ec5]"> Enrique</span>
           </h1>
-          <h1 className="py-4 text-gray-700">A Mechatronics Engineer</h1>
+          <h2 className="py-4 text-gray-500 italic">A Mechatronics Engineer</h2>
           <p className="py-4 text-gray-600 max-w-[60%] m-auto text-xl">
             {" "}
             I am passionate for technology and have recently started my journey
@@ -26,7 +26,7 @@ const Main = () => {
             <p className="py-4 mt-2  text-bold text-lg italic">
               Graduado en ingeniería desde hace media año,
             </p>
-            <span className="text-[#cb6ce6] text-bold text-lg italic">
+            <span className="text-[#5192ba] text-bold text-lg italic">
               {" "}
               siendo ingeniero de corazón toda la vida.
             </span>
