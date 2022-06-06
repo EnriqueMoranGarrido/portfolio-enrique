@@ -32,6 +32,11 @@ const Projects = () => {
             projectURL="/twitch-ui-clone"
           />
           <ProjectItem title="Crypto App" image={Crypto} projectURL="/crypto" />
+          <ProjectItem
+            title="Pinterest Mobile App (Clone)"
+            image={Twitch}
+            projectURL="/twitch-ui-clone"
+          />
         </div>
       </div>
     </div>
