@@ -5,6 +5,7 @@ import Contact from "../components/Contact";
 import Main from "../components/Main";
 import Navbar from "../components/Navbar";
 import Projects from "../components/Projects";
+import Resume from "../components/Resume";
 import Skills from "../components/Skills";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
+      <Resume />
       <Contact />
     </div>
   );

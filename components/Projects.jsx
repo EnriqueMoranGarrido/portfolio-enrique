@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div id="projects" className="w-full mt-28">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <p className="text-xl tracking-widest uppercase text-[#039898]">
+        <p className=" text-3xl tracking-widest uppercase text-[#039898]">
           Projects
         </p>
         <h2 className="py-4">My Crafts</h2>
