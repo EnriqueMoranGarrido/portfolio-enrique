@@ -5,14 +5,14 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Main = () => {
   return (
-    <div className="w-full h-screen text-center">
+    <div id="home" className="w-full h-screen text-center">
       <div className=" max-w-[1240px] w-full h-full mx-auto flex p-2 justify-center items-center ">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600">
             LET'S BUILD SOMETHING TOGETHER!
           </p>
           <h1 className="py-4 text-gray-700">
-            Hi, I'm <span className="text-[#5e9ec5]"> Enrique</span>
+            Hi, I'm <span className="text-[#039898]"> Enrique</span>
           </h1>
           <h2 className="py-4 text-gray-500 italic">A Mechatronics Engineer</h2>
           <p className="py-4 text-gray-600 max-w-[60%] m-auto text-xl">
@@ -26,7 +26,7 @@ const Main = () => {
             <p className="py-4 mt-2  text-bold text-lg italic">
               Graduado en ingeniería desde hace media año,
             </p>
-            <span className="text-[#5192ba] text-bold text-lg italic">
+            <span className="text-[#039898] text-bold text-lg italic">
               {" "}
               siendo ingeniero de corazón toda la vida.
             </span>
