@@ -5,7 +5,7 @@ const Resume = () => {
   return (
     <div id="resume" className="w-full lg:h-screen p-2 mt-[5%]">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-        <p className=" text-3xl tracking-widest uppercase text-[#039898]">
+        <p className=" py-4 uppercase  text-2xl tracking-widest  text-[#039898]">
           Resume
         </p>
 

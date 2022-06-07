@@ -1,14 +1,14 @@
-import React from "react";
 import Image from "next/image";
+import React from "react";
 
 const Skills = () => {
   return (
     <div id="skills" className="w-full lg:h-screen p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-        <p className=" text-2xl tracking-widest uppercase text-[#039898] mt-5">
+        <p className=" py-4 uppercase  text-2xl tracking-widest  text-[#039898]">
           Skills
         </p>
-        <h2 className="py-4 mt-6 mb-4">Programming Languages</h2>
+        <h2 className="py-4">My Set of Tools</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <a href="https://www.python.org" target="_blank">
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
@@ -47,47 +47,7 @@ const Skills = () => {
               </div>
             </div>
           </a>
-          <a href=" https://dev.java" target="_blank">
-            <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                <div className="m-auto">
-                  <Image
-                    src="/../public/assets/skills/java.png"
-                    width="80px"
-                    height="64px"
-                    alt="/"
-                  />
-                </div>
-                <div className="flex flex-col items-center justify-center">
-                  <h3>Java</h3>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a
-            href=" https://support.microsoft.com/en-us/office/access-sql-basic-concepts-vocabulary-and-syntax-444d0303-cde1-424e-9a74-e8dc3e460671#:~:text=SQL%20es%20un%20lenguaje%20de%20computación%20para%20trabajar%20con%20conjuntos,SQL%20para%20trabajar%20con%20datos."
-            target="_blank"
-          >
-            <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-              <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                <div className="m-auto">
-                  <Image
-                    src="/../public/assets/skills/sql.png"
-                    width="64px"
-                    height="60px"
-                    alt="/"
-                  />
-                </div>
-                <div className="flex flex-col items-center justify-center">
-                  <h3>SQL</h3>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
 
-        <h2 className="py-4 mt-6 mb-4">Technologies</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <a
             href=" https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"
             target="_blank"
@@ -128,7 +88,6 @@ const Skills = () => {
               </div>
             </div>
           </a>
-
           <a href="https://en.reactjs.org" target="_blank">
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
@@ -163,7 +122,6 @@ const Skills = () => {
               </div>
             </div>
           </a>
-
           <a href="https://aws.amazon.com/amplify/" target="_blank">
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
@@ -198,9 +156,6 @@ const Skills = () => {
               </div>
             </div>
           </a>
-        </div>
-        <h2 className="py-4 mt-6 mb-4">Softwares</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <a
             href=" https://www.autodesk.com/products/autocad/overview?panel=buy&AID=12741901&PID=8299320&SID=jkp_CjwKCAjwy_aUBhACEiwA2IHHQGYtQi4gkl10b_54hNxKYU4nwsuRGE5U2Z6l4T5TNn-hK_IR7SHqThoCU_EQAvD_BwE&cjevent=5f59e5dae5e011ec82054f9a0a1c0e14&mktvar002=afc_mx_deeplink&affname=8299320_12741901&term=1-YEAR&tab=subscription&plc=ACDIST"
             target="_blank"
@@ -241,7 +196,6 @@ const Skills = () => {
               </div>
             </div>
           </a>
-
           <a
             href="https://www.mathworks.com/products/matlab.html"
             target="_blank"
@@ -282,14 +236,13 @@ const Skills = () => {
               </div>
             </div>
           </a>
-
           <a href="https://www.labcenter.com" target="_blank">
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
                     src="/../public/assets/skills/proteus.png"
-                    width="70px"
+                    width="80px"
                     height="64px"
                     alt="/"
                   />
@@ -300,7 +253,6 @@ const Skills = () => {
               </div>
             </div>
           </a>
-
           <a
             href="https://www.ni.com/es-mx/shop/software/products/multisim.html"
             target="_blank"

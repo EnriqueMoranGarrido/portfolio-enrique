@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../public/assets/logo-blue.png";
+import logo from "../public/assets/new-logo.png";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedin, FaGithub, FaTwitter, FaTwitch } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -107,6 +107,7 @@ const Navbar = () => {
         className={
           nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
         }
+        onClick={handleNav}
       >
         {/* Side Drawer Menu */}
         <div
@@ -163,37 +164,48 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className="pt-40">
-              <p className="uppercase tracking-widest text-[#5651e5]">
+              <p className="uppercase tracking-widest text-[#039898]">
                 Let's Connect
               </p>
-              <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
+              <div className="flex items-center justify-between my-4 w-full sm:w-[90%] mx-4">
                 <a
-                  href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                  href="https://www.linkedin.com/in/enrique-moran-garrido"
                   target="_blank"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaLinkedin />
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
+                    <FaLinkedin size={20} />
                   </div>
                 </a>
-                <a href="https://github.com/fireclint" target="_blank">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaGithub />
+                <a
+                  href="https://github.com/EnriqueMoranGarrido"
+                  target="_blank"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898]">
+                    <FaGithub size={20} />
                   </div>
                 </a>
+                <a
+                  href="https://github.com/EnriqueMoranGarrido"
+                  target="_blank"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898]">
+                    <FaTwitter size={20} />
+                  </div>
+                </a>
+                <Link href="/#resume">
+                  <div
+                    onClick={() => setNav(!nav)}
+                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898]"
+                  >
+                    <BsFillPersonLinesFill size={20} />
+                  </div>
+                </Link>
                 <Link href="/#contact">
                   <div
                     onClick={() => setNav(!nav)}
-                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898]"
                   >
-                    <AiOutlineMail />
-                  </div>
-                </Link>
-                <Link href="/resume">
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
-                  >
-                    <BsFillPersonLinesFill />
+                    <AiOutlineMail size={20} />
                   </div>
                 </Link>
               </div>
