@@ -5,8 +5,8 @@ import Contact from "../components/Contact";
 import Main from "../components/Main";
 import Navbar from "../components/Navbar";
 import Projects from "../components/Projects";
-import Resume from "../components/Resume";
 import Skills from "../components/Skills";
+import Resume from "../components/Resume";
 
 export default function Home() {
   return (

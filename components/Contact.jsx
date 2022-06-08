@@ -7,6 +7,9 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
+import axios from "axios";
+import { useForm } from "react-hook-form";
+
 const Contact = () => {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");

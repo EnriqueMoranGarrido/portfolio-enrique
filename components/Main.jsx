@@ -3,6 +3,8 @@ import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
+import Link from "next/link";
+
 const Main = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
@@ -33,21 +35,34 @@ const Main = () => {
           </div>
 
           <div className="flex items-center justify-between max-w-[500px] m-auto py-4">
-            <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaLinkedin size={25} />
-            </div>
-            <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaGithub size={25} />
-            </div>
-            <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <AiOutlineMail size={25} />
-            </div>
-            <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <BsFillPersonLinesFill size={25} />
-            </div>
-            <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaTwitter size={25} />
-            </div>
+            <Link
+              href="https://www.linkedin.com/in/enrique-moran-garrido"
+              target="_blank"
+            >
+              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaLinkedin size={25} />
+              </div>
+            </Link>
+            <Link href="https://github.com/EnriqueMoranGarrido" target="_blank">
+              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaGithub size={25} />
+              </div>
+            </Link>
+            <Link href="/#contact" target="_blank">
+              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <AiOutlineMail size={25} />
+              </div>
+            </Link>
+            <Link href="/#resume" target="_blank">
+              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <BsFillPersonLinesFill size={25} />
+              </div>
+            </Link>
+            <Link href="https://github.com/EnriqueMoranGarrido" target="_blank">
+              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaTwitter size={25} />
+              </div>
+            </Link>
           </div>
         </div>
       </div>

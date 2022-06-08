@@ -25,6 +25,7 @@ const Navbar = () => {
       router.asPath === "/crypto" ||
       router.asPath === "/pinterest" ||
       router.asPath === "/netflix" ||
+      router.asPath === "/resume" ||
       router.asPath === "/twitch"
     ) {
       setNavBg("transparent");
@@ -66,26 +67,34 @@ const Navbar = () => {
           />
         </Link>
         <div>
-          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
+          <ul style={{ color: `${linkColor}` }} className="hidden md:flex  ">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-sm uppercase hover:border-b hover:underline underline-offset-8 decoration-2 decoration-[#039898]">
+                Home
+              </li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="ml-10 text-sm uppercase hover:border-b hover:underline underline-offset-8 decoration-2 decoration-[#039898]">
+                About
+              </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="ml-10 text-sm uppercase hover:border-b hover:underline  underline-offset-8 decoration-2 decoration-[#039898]">
+                Skills
+              </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:border-b hover:underline  underline-offset-8 decoration-2 decoration-[#039898]">
                 Projects
               </li>
             </Link>
             <Link href="/#resume">
-              <li className="ml-10 text-sm uppercase hover:border-b">Resume</li>
+              <li className="ml-10 text-sm uppercase hover:border-b hover:underline  underline-offset-8 decoration-2 decoration-[#039898]">
+                Resume
+              </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:border-b hover:underline underline-offset-8 decoration-2  decoration-[#039898]">
                 Contact
               </li>
             </Link>
