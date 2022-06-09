@@ -1,15 +1,14 @@
 import React from "react";
 import Head from "next/head";
-import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
-import { FaLinkedinIn, FaGithub, FaTwitter, FaTwitch } from "react-icons/fa";
-import {
-  BsFillPersonLinesFill,
-  BsTelephoneFill,
-  BsHouseDoorFill,
-  BsGlobe2,
-} from "react-icons/bs";
+import { AiOutlineMail } from "react-icons/ai";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { BsTelephoneFill, BsHouseDoorFill, BsGlobe2 } from "react-icons/bs";
 
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import {
+  HiOutlineChevronDoubleUp,
+  HiArrowCircleLeft,
+  HiArrowCircleRight,
+} from "react-icons/hi";
 import icon from "../public/favicon.ico";
 
 import Link from "next/link";
@@ -27,6 +26,13 @@ const resume = () => {
       </Head>
 
       <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
+        <Link href="/#resume">
+          <div className="underline cursor-pointer uppercase">
+            {" "}
+            <HiArrowCircleLeft size={35} />
+            Back
+          </div>
+        </Link>
         <h2 className="text-center">Resume</h2>
         <div className="bg-[#039898] my-4 p-4 w-full flex justify-between items-center">
           <h2 className="text-center text-gray-100">Enrique Morán Garrido</h2>
@@ -263,6 +269,17 @@ const resume = () => {
             is something that always brings a lot of enjoy!
           </p>
         </div>
+
+        {/*  Certificates */}
+        <Link href="/certificates">
+          <div className="text-left py-4 flex flex-row items-center hover:cursor-pointer">
+            <p className="text-left underline text-[18px] py-2 uppercase text-2xl font-bold text-[#039898]">
+              Certificates
+            </p>
+            <HiArrowCircleRight size={30} className="mx-4" color="#039898" />
+          </div>
+        </Link>
+
         <div className="flex justify-center py-12">
           <Link href="/resume">
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">

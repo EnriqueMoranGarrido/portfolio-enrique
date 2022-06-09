@@ -1,14 +1,9 @@
 import React from "react";
 import Head from "next/head";
-import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
-import { FaLinkedinIn, FaGithub, FaTwitter, FaTwitch } from "react-icons/fa";
-import {
-  BsFillPersonLinesFill,
-  BsTelephoneFill,
-  BsHouseDoorFill,
-  BsGlobe2,
-} from "react-icons/bs";
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import { AiOutlineMail } from "react-icons/ai";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { BsTelephoneFill, BsHouseDoorFill, BsGlobe2 } from "react-icons/bs";
+import { HiOutlineChevronDoubleUp, HiArrowCircleLeft } from "react-icons/hi";
 import icon from "../public/favicon.ico";
 
 import Link from "next/link";
@@ -26,6 +21,13 @@ const resume = () => {
       </Head>
 
       <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
+        <Link href="/#resume">
+          <div className="underline cursor-pointer">
+            {" "}
+            <HiArrowCircleLeft size={35} />
+            Back
+          </div>
+        </Link>
         <h2 className="text-center">Certificates</h2>
         <div className="bg-[#039898] my-4 p-4 w-full flex justify-between items-center">
           <h2 className="text-center text-gray-100">Enrique Morán Garrido</h2>
@@ -175,6 +177,7 @@ const resume = () => {
             <p className="italics text-right col-span-2 text-[#039898]">2019</p>
           </div>
         </div>
+
         <div className="flex justify-center py-12">
           <Link href="/certificates">
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">

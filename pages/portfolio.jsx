@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import cryptoImg from "../public/assets/projects/portfolio.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
+import { HiArrowCircleLeft } from "react-icons/hi";
 import Link from "next/link";
 
 const portfolio = () => {
@@ -17,6 +18,13 @@ const portfolio = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
+          <Link href="/#projects">
+            <div className="underline cursor-pointer absolute bottom-[98%] ">
+              {" "}
+              <HiArrowCircleLeft size={35} color="white" />
+              <p className="text-white">BACK</p>
+            </div>
+          </Link>
           <h2 className="py-2">Web Portfolio</h2>
           <h3>Nex JS / Tailwind</h3>
         </div>
@@ -56,9 +64,9 @@ const portfolio = () => {
             </div>
           </div>
         </div>
-        <Link href="/#projects">
+        {/* <Link href="/#projects">
           <p className="underline cursor-pointer">Back</p>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

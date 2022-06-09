@@ -60,22 +60,22 @@ const Contact = () => {
               <p className="uppercase pt-8 pb-4">Connect With Me</p>
               <div className="">
                 <div className="flex items-center justify-between max-w-[500px] m-auto py-4">
-                  <Link
+                  <a
                     href="https://www.linkedin.com/in/enrique-moran-garrido"
                     target="_blank"
                   >
                     <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
                       <FaLinkedin size={25} />
                     </div>
-                  </Link>
-                  <Link
+                  </a>
+                  <a
                     href="https://github.com/EnriqueMoranGarrido"
                     target="_blank"
                   >
                     <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
                       <FaGithub size={25} />
                     </div>
-                  </Link>
+                  </a>
                   <Link href="/#contact" target="_blank">
                     <div
                       className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] "
@@ -93,11 +93,11 @@ const Contact = () => {
                       <BsFillPersonLinesFill size={25} />
                     </div>
                   </Link>
-                  <Link href="https://twitter.com/ImMythic2" target="_blank">
+                  <a href="https://twitter.com/ImMythic2" target="_blank">
                     <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
                       <FaTwitter size={25} />
                     </div>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
