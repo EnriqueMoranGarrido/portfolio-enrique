@@ -7,29 +7,26 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
-import axios from "axios";
-import { useForm } from "react-hook-form";
-
 const Contact = () => {
-  const [name, setName] = useState("");
-  const [phone, setPhone] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
+  // const [name, setName] = useState("");
+  // const [phone, setPhone] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [subject, setSubject] = useState("");
+  // const [message, setMessage] = useState("");
 
-  const handleSubmit = () => {
-    setName("");
-    setPhone("");
-    setEmail("");
-    setSubject("");
-    setMessage("");
-    window.open(
-      "mailto:enrique.morango04@outlook.com?subject=" +
-        { subject } +
-        "&body=" +
-        { message }
-    );
-  };
+  // const handleSubmit = () => {
+  //   setName("");
+  //   setPhone("");
+  //   setEmail("");
+  //   setSubject("");
+  //   setMessage("");
+  //   window.open(
+  //     "mailto:enrique.morango04@outlook.com?subject=" +
+  //       { subject } +
+  //       "&body=" +
+  //       { message }
+  //   );
+  // };
 
   return (
     <div id="contact" className="w-full lg:h-screen">
@@ -60,23 +57,17 @@ const Contact = () => {
               <p className="uppercase pt-8 pb-4">Connect With Me</p>
               <div className="">
                 <div className="flex items-center justify-between max-w-[500px] m-auto py-4">
-                  <a
-                    href="https://www.linkedin.com/in/enrique-moran-garrido"
-                    target="_blank"
-                  >
+                  <a href="https://www.linkedin.com/in/enrique-moran-garrido">
                     <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
                       <FaLinkedin size={25} />
                     </div>
                   </a>
-                  <a
-                    href="https://github.com/EnriqueMoranGarrido"
-                    target="_blank"
-                  >
+                  <a href="https://github.com/EnriqueMoranGarrido">
                     <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
                       <FaGithub size={25} />
                     </div>
                   </a>
-                  <Link href="/#contact" target="_blank">
+                  <Link href="/#contact">
                     <div
                       className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] "
                       onClick={() => {
@@ -88,12 +79,12 @@ const Contact = () => {
                       <AiOutlineMail size={25} />
                     </div>
                   </Link>
-                  <Link href="/#resume" target="_blank">
+                  <Link href="/#resume">
                     <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
                       <BsFillPersonLinesFill size={25} />
                     </div>
                   </Link>
-                  <a href="https://twitter.com/ImMythic2" target="_blank">
+                  <a href="https://twitter.com/ImMythic2">
                     <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
                       <FaTwitter size={25} />
                     </div>

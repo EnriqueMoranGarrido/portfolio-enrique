@@ -179,7 +179,7 @@ const Navbar = () => {
               <div className="flex items-center justify-between my-4 w-full sm:w-[90%] mx-4">
                 <a
                   href="https://www.linkedin.com/in/enrique-moran-garrido"
-                  target="_blank"
+                  // target="_blank"
                 >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
                     <FaLinkedin size={20} />
@@ -187,7 +187,7 @@ const Navbar = () => {
                 </a>
                 <a
                   href="https://github.com/EnriqueMoranGarrido"
-                  target="_blank"
+                  // target="_blank"
                 >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898]">
                     <FaGithub size={20} />
@@ -195,7 +195,7 @@ const Navbar = () => {
                 </a>
                 <a
                   href="https://github.com/EnriqueMoranGarrido"
-                  target="_blank"
+                  // target="_blank"
                 >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898]">
                     <FaTwitter size={20} />

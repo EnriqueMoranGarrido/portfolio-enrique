@@ -32,24 +32,21 @@ const resume = () => {
         <div className="bg-[#039898] my-4 p-4 w-full flex justify-between items-center">
           <h2 className="text-center text-gray-100">Enrique Morán Garrido</h2>
           <div className="flex">
-            <a
-              href="https://www.linkedin.com/in/enrique-moran-garrido"
-              target="_blank"
-            >
+            <a href="https://www.linkedin.com/in/enrique-moran-garrido">
               <FaLinkedinIn
                 size={23}
                 color="white"
                 style={{ marginRight: "1rem" }}
               />
             </a>
-            <a href="https://github.com/EnriqueMoranGarrido" target="_blank">
+            <a href="https://github.com/EnriqueMoranGarrido">
               <FaGithub
                 size={23}
                 color="white"
                 style={{ marginRight: "1rem" }}
               />
             </a>
-            <Link href="/#resume" target="_blank">
+            <Link href="/#resume">
               <BsGlobe2
                 size={23}
                 color="white"
