@@ -23,20 +23,19 @@ const About = () => {
               // I am not your average engineer
             </p>
             <p className="py-2 text-gray-600">
-              I have spent the last 12 years in the fire service working as a
-              professional firefighter & paramedic. I have always had a knack
-              for technology and working with computers. In 2019 I started
-              working with HTML & CSS to make some minor edits on a small
-              business website that I was operating. What I thought was just a
-              few small edits turned into a love for programming.
+              I am a recent graduated Mechatronics Engineer and I have spent the
+              last 6 years learning different tools and blooming my passion for
+              technology. In 2017 I started programming and interacting with
+              microcontrollers. What I thought was just a few small puzzles /
+              assignments, turned into a love for programming.
             </p>
             <p className="py-2 text-gray-600">
               Fascinated with how intricate programming can be I was quickly
-              drawn to learn more. I started learning javascript and was even
-              more enthused with making websites interactive. I then started
-              freelancing for e-commerce companies on the Shopify platform. I am
-              now spending my time building projects with React JS, AWS, and
-              learning new technologies.
+              drawn to learn more. I started learning javascript and PLCs, and
+              was even more enthused with making interactive projects such as
+              web and mobile applications, and industrial automation systems. I
+              am now spending my time building projects with React JS, AWS, TIA
+              PORTAL, FluidSIM and learning new technologies.
             </p>
             <a href="/#projects">
               <p className="py-2 text-[#039898] underline cursor-pointer">
