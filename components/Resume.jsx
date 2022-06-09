@@ -69,7 +69,7 @@ const Resume = () => {
                 <li>
                   <div className="py-2 items-center text-left">
                     <p>
-                      Bachelor's Degree in Mechatronics Engineering at
+                      Bachelor&apos;s Degree in Mechatronics Engineering at
                       Universidad de las Américas Puebla
                     </p>
                     <p>— Aug 2016 - Dec 2021</p>

@@ -34,7 +34,7 @@ const Contact = () => {
         <p className="py-4 uppercase  text-2xl tracking-widest  text-[#039898]">
           Contact
         </p>
-        <h2 className="py-4">Let's get in touch!</h2>
+        <h2 className="py-4">Let&apos;s get in touch!</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* Left */}
           <div className="col-span-3 lg:col-span-5 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
@@ -47,11 +47,11 @@ const Contact = () => {
                 /> */}
               </div>
               <div>
-                <h2 className="py-2">Enrique Morán Garrido</h2>
+                <h2 className="py-2">Enrique Moran Garrido</h2>
                 <p className="italic text-[#039898]">Mechatronics Engineer</p>
                 <p className="py-4">
                   I am available for freelance or full-time positions. Contact
-                  me and let's talk.
+                  me and let&apos;s talk.
                 </p>
               </div>
               <p className="uppercase pt-8 pb-4">Connect With Me</p>
