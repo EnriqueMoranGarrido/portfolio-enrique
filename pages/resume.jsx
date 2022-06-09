@@ -6,7 +6,13 @@ import {
   BsFillPersonLinesFill,
   BsTelephoneFill,
   BsHouseDoorFill,
+  BsGlobe2,
 } from "react-icons/bs";
+
+import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import icon from "../public/favicon.ico";
+
+import Link from "next/link";
 
 const resume = () => {
   return (
@@ -17,13 +23,39 @@ const resume = () => {
           name="description"
           content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
         />
-        <link rel="icon" href="/fav.png" />
+        <link rel="icon" href={icon} />
       </Head>
 
       <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
         <h2 className="text-center">Resume</h2>
         <div className="bg-[#039898] my-4 p-4 w-full flex justify-between items-center">
           <h2 className="text-center text-gray-100">Enrique Morán Garrido</h2>
+          <div className="flex">
+            <a
+              href="https://www.linkedin.com/in/enrique-moran-garrido"
+              target="_blank"
+            >
+              <FaLinkedinIn
+                size={23}
+                color="white"
+                style={{ marginRight: "1rem" }}
+              />
+            </a>
+            <a href="https://github.com/EnriqueMoranGarrido" target="_blank">
+              <FaGithub
+                size={23}
+                color="white"
+                style={{ marginRight: "1rem" }}
+              />
+            </a>
+            <Link href="/#resume" target="_blank">
+              <BsGlobe2
+                size={23}
+                color="white"
+                style={{ marginRight: "1rem" }}
+              />
+            </Link>
+          </div>
         </div>
         <div className="text-center py-4 text-xl font-bold uppercase tracking-wider"></div>
 
@@ -34,49 +66,82 @@ const resume = () => {
           <BsTelephoneFill size={15} className="mx-1" />
           <p>+52 2281199877</p>
           <span className="px-1">|</span>
-          <AiOutlineMail size={20} className="mx-1" />
-          <p>enrique.morango04@outlook.com</p>
-          <span className="px-1">|</span>
-          <FaGithub size={20} className="mx-1" />
-          <p>EnriqueMoranGarrido</p>
+          <div
+            className="flex hover:cursor-pointer"
+            onClick={() => {
+              window.open(
+                "mailto:enrique.morango04@outlook.com?subject=Subject&body=Body%20goes%20here"
+              );
+            }}
+          >
+            <AiOutlineMail size={20} className="mx-1" />
+            <p>enrique.morango04@outlook.com</p>
+          </div>
         </div>
 
-        <p>
-          Web Development <span className="px-1">|</span> Complex Problem
-          Solving Analytical, innovative, and motivated web development
-          professional with experience in customer service, team leadership, and
-          organizational effectiveness in fast-paced and challenging
-          environments. Adept at developing strategies and driving streamlined
-          operations. Diverse analytical skills, team collaboration, and
-          relationship building. Consummate professional, and motivated leader,
-          with solid interpersonal abilities and complex problem-solving skills.
-          Effective and proven track record of critical thinking, idea
-          generation, and optimizing efficiencies.
-        </p>
-
         {/* Skills */}
-        <div className="text-center py-4">
-          <h5 className="text-center underline text-[18px] py-2">Skills</h5>
-          <p className="py-2">
-            <span className="font-bold">Technical Skills</span>
-            <span className="px-2">|</span>Front-End Web Developer
-            <span className="px-2">|</span> HTML <span className="px-2">|</span>
-            CSS <span className="px-2">|</span>React
-            <span className="px-2">|</span>Tailwind
-            <span className="px-2">|</span> Firebase
+        <div className="text-left py-4">
+          <p className="text-left underline text-[18px] py-2 uppercase text-2xl font-bold text-[#039898]">
+            Skills
           </p>
-          <p className="py-2">
-            <span className="font-bold">Amazon Web Services</span>
-            <span className="px-2">|</span>Amazon Web Services Cloud
-            Practitioner
-          </p>
+          <div className="py-2">
+            <p className="font-bold">Programming Languages</p>
+            <p>
+              Python
+              <span className="px-2">|</span>JavaScript
+              <span className="px-2">|</span>Java
+              <span className="px-2">|</span>C++
+              <span className="px-2">|</span> C<span className="px-2">|</span>
+              SQL
+            </p>
+          </div>
+
+          <div className="py-2">
+            <p className="font-bold">Technologies</p>
+            <p>
+              HTML
+              <span className="px-2">|</span>CSS
+              <span className="px-2">|</span>React JS
+              <span className="px-2">|</span>React Native
+              <span className="px-2">|</span>Next JS
+              <span className="px-2">|</span>TailwindCSS
+              <span className="px-2">|</span>Amazon Web Services: Amplify
+              <span className="px-2">|</span>GitHub
+            </p>
+          </div>
+          <div className="py-2">
+            <p className="font-bold">Softwares</p>
+            <p>
+              STEP7 / TIA PORTAL
+              <span className="px-2">|</span>FluidSIM
+              <span className="px-2">|</span>AutoCAD
+              <span className="px-2">|</span>AutoDesk Fusion 360
+              <span className="px-2">|</span>Multisim
+              <span className="px-2">|</span>Proteus Design Suite
+              <span className="px-2">|</span>MATLAB & Simulink
+              <span className="px-2">|</span>National Instruments LabVIEW
+              <span className="px-2">|</span>Visual Studio Code
+              <span className="px-2">|</span>Atom
+              <span className="px-2">|</span>Arduino IDE
+            </p>
+          </div>
+          <div className="py-2">
+            <p className="font-bold">Others</p>
+            <p>
+              MySQL
+              <span className="px-2">|</span>MongoDB
+              <span className="px-2">|</span>Profibus
+              <span className="px-2">|</span>CAN
+              <span className="px-2">|</span>Scrum
+            </p>
+          </div>
         </div>
 
         {/* Experience */}
         <div className="py-4">
-          <h5 className="text-center underline text-[18px] py-4">
-            Professional Experience
-          </h5>
+          <p className="text-left underline text-[18px] py-2 uppercase text-2xl font-bold text-[#039898]">
+            Experience
+          </p>
           <p className="italic">
             <span className="font-bold">
               Fachhochschule Bielefeld University of Applied Sciences
@@ -155,34 +220,55 @@ const resume = () => {
           </ul>
         </div>
 
-        <div>
-          <h2 className="py-2 mt-6 mb-4 uppercase">Interests</h2>
-          <div className="text-xl">
+        {/* Education */}
+        <div className="text-left py-4">
+          <p className="text-left underline text-[18px] py-2 uppercase text-2xl font-bold text-[#039898]">
+            Education
+          </p>
+          <div className="text-md">
             <ul className="flex flex-col">
               <li>
                 <div className="py-2 items-center text-left">
-                  <p>
-                    Lover of green spaces and currently building greenhouse at
-                    home.
-                  </p>
-                </div>
-              </li>
-
-              <li>
-                <div className="py-2 items-center text-left">
-                  <p>
-                    Huge fan of languages and can currently speak in Spanish and
-                    English, German is in process.
-                  </p>
+                  <p>The Complete 2022 Web Development Bootcamp at Udemy</p>
+                  <p>— Jan 2022 - Present</p>
                 </div>
               </li>
               <li>
                 <div className="py-2 items-center text-left">
-                  <p>Ex-drummer and learning how to play the guitar.</p>
+                  <p>
+                    Bachelor's Degree in Mechatronics Engineering at Universidad
+                    de las Américas Puebla
+                  </p>
+                  <p>— Aug 2016 - Dec 2021</p>
                 </div>
               </li>
             </ul>
           </div>
+        </div>
+        {/* Interests and more */}
+        <div className="text-left py-4">
+          <p className="text-left underline text-[18px] py-2 uppercase text-2xl font-bold text-[#039898]">
+            Interests and more about me
+          </p>
+          <p className="my-4">
+            Responsible, committed person who can adapt to different working
+            methodologies and environments, loves technology, and likes to take
+            initiative and seek out to grow personally and professionally.
+            Successfully able to work independently and collaborate with others
+            as team whilst building good relationships and meeting all project
+            deadlines. Lover of green spaces and currently building greenhouse
+            at home. Huge fan of languages and can currently speak Spanish,
+            English and German. Ex-drummer and learning how to play the guitar
+            in a self-taught way. Spending time with my family, friends and pet
+            is something that always brings a lot of enjoy!
+          </p>
+        </div>
+        <div className="flex justify-center py-12">
+          <Link href="/resume">
+            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+              <HiOutlineChevronDoubleUp className="text-[#039898]" size={30} />
+            </div>
+          </Link>
         </div>
       </div>
     </>

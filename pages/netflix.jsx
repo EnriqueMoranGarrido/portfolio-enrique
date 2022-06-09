@@ -36,7 +36,7 @@ const netflix = () => {
             account with an email address in order to save your favorite
             properties. This is made possible with Zillow API.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          {/* <button className="px-8 py-2 mt-4 mr-8">Demo</button> */}
           <button className="px-8 py-2 mt-4">Code</button>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
