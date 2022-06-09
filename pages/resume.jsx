@@ -22,7 +22,6 @@ const resume = () => {
           name="description"
           content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
         />
-        <link rel="icon" href={icon} />
       </Head>
 
       <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
@@ -47,14 +46,14 @@ const resume = () => {
                 style={{ marginRight: "1rem" }}
               />
             </a>
-            <a href="https://github.com/EnriqueMoranGarrido" target="_blank">
+            <a href="https://github.com/EnriqueMoranGarrido">
               <FaGithub
                 size={23}
                 color="white"
                 style={{ marginRight: "1rem" }}
               />
             </a>
-            <Link href="/#resume" target="_blank">
+            <Link href="/#resume">
               <BsGlobe2
                 size={23}
                 color="white"
