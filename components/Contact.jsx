@@ -23,6 +23,12 @@ const Contact = () => {
     setEmail("");
     setSubject("");
     setMessage("");
+    window.open(
+      "mailto:enrique.morango04@outlook.com?subject=" +
+        { subject } +
+        "&body=" +
+        { message }
+    );
   };
 
   return (
@@ -34,14 +40,14 @@ const Contact = () => {
         <h2 className="py-4">Let's get in touch!</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* Left */}
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
+          <div className="col-span-3 lg:col-span-5 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div className="">
-                <img
+                {/* <img
                   className="rounded-xl hover:scale-110 ease duration-300"
                   src="https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80"
                   alt="/"
-                />
+                /> */}
               </div>
               <div>
                 <h2 className="py-2">Enrique Morán Garrido</h2>
@@ -54,32 +60,55 @@ const Contact = () => {
               <p className="uppercase pt-8 pb-4">Connect With Me</p>
               <div className="">
                 <div className="flex items-center justify-between max-w-[500px] m-auto py-4">
-                  <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaLinkedin size={25} />
-                  </div>
-                  <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaGithub size={25} />
-                  </div>
-                  <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail size={25} />
-                  </div>
-                  <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <BsFillPersonLinesFill size={25} />
-                  </div>
-                  <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaTwitter size={25} />
-                  </div>
+                  <Link
+                    href="https://www.linkedin.com/in/enrique-moran-garrido"
+                    target="_blank"
+                  >
+                    <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
+                      <FaLinkedin size={25} />
+                    </div>
+                  </Link>
+                  <Link
+                    href="https://github.com/EnriqueMoranGarrido"
+                    target="_blank"
+                  >
+                    <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
+                      <FaGithub size={25} />
+                    </div>
+                  </Link>
+                  <Link href="/#contact" target="_blank">
+                    <div
+                      className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] "
+                      onClick={() => {
+                        window.open(
+                          "mailto:enrique.morango04@outlook.com?subject=Subject&body=Body%20goes%20here"
+                        );
+                      }}
+                    >
+                      <AiOutlineMail size={25} />
+                    </div>
+                  </Link>
+                  <Link href="/#resume" target="_blank">
+                    <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
+                      <BsFillPersonLinesFill size={25} />
+                    </div>
+                  </Link>
+                  <Link href="https://twitter.com/ImMythic2" target="_blank">
+                    <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
+                      <FaTwitter size={25} />
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
           {/* Right */}
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+          {/* <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
               <form
                 onSubmit={handleSubmit}
-                action="https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060"
-                method="POST"
+                // action="https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060"
+                // method="POST"
               >
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
@@ -140,7 +169,7 @@ const Contact = () => {
                 </button>
               </form>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="flex justify-center py-12">
           <Link href="/">

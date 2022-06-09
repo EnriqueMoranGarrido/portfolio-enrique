@@ -4,6 +4,8 @@ import Netflix from "../public/assets/projects/netflix.jpg";
 import Twitch from "../public/assets/projects/twitch.jpg";
 import Portfolio from "../public/assets/projects/portfolio.png";
 import ProjectItem from "./ProjectItem";
+import Uber from "../public/assets/projects/1.png";
+import Pinterest from "../public/assets/projects/4.png";
 
 const Projects = () => {
   return (
@@ -15,17 +17,29 @@ const Projects = () => {
         <h2 className="py-4">My Crafts</h2>
         <div className="grid md:grid-cols-2 gap-8 ">
           <ProjectItem
+            title="Uber Eats Mobile App"
+            image={Uber}
+            projectUrl="/uber"
+            tools="React / React Native / Expo CLI / AWS Amplify / GitHub "
+          />
+          <ProjectItem
+            title="Pinterest Mobile App"
+            image={Pinterest}
+            projectUrl="/pinterest"
+            tools="React / React Native / Expo CLI / AWS Amplify / GitHub "
+          />
+          <ProjectItem
+            title="Netflix UI"
+            image={Netflix}
+            projectUrl="/netflix"
+            tools="React JS / Tailwind / Firebase"
+          />
+          <ProjectItem
             title="Web Portfolio"
             image={Portfolio}
             projectUrl="/portfolio"
+            tools="JavaScript /Next Js / TailwindCSS / GitHub  "
           />
-          <ProjectItem title="Crypto App" image={Crypto} projectUrl="/crypto" />
-          <ProjectItem
-            title="Netflix App"
-            image={Netflix}
-            projectUrl="/netflix"
-          />
-          <ProjectItem title="Twitch UI" image={Twitch} projectUrl="/twitch" />
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const ProjectItem = ({ title, image, projectUrl }) => {
+const ProjectItem = ({ title, image, projectUrl, tools }) => {
   return (
     <div className="">
       {" "}
@@ -16,9 +16,7 @@ const ProjectItem = ({ title, image, projectUrl }) => {
           <h3 className="text-2xl text-white tracking-wider text-center">
             {title}
           </h3>
-          <p className="text-white text-center pb-4 pt-2">
-            React Native / Expo
-          </p>
+          <p className="text-white text-center pb-4 pt-2">{tools}</p>
           <Link href={projectUrl}>
             <p className="text-center rounded-lg py-3 bg-white text-gray-700 font-bold italic text-lg cursor-pointer">
               More Info

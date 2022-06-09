@@ -100,9 +100,11 @@ const Resume = () => {
                     </li>
                   </ul>
                   <div className="items-center justify-center">
-                    <button className="w-[100%] p-4 text-gray-100 mt-4 bg-gradient-to-r">
-                      View List of Certificates
-                    </button>
+                    <Link href="/certificates">
+                      <button className="w-[100%] p-4 text-gray-100 mt-4 bg-gradient-to-r">
+                        View List of Certificates
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>

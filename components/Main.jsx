@@ -26,11 +26,11 @@ const Main = () => {
           </p>
           <div className="sm:max-w-[60%] text-center items-center m-auto">
             <p className="py-4 mt-2  text-bold text-lg italic">
-              Graduado en ingeniería desde hace media año,
+              Graduated from engineering since 2021,
             </p>
             <span className="text-[#039898] text-bold text-lg italic">
               {" "}
-              siendo ingeniero de corazón toda la vida.
+              loving it since 1998.
             </span>
           </div>
 
@@ -39,30 +39,42 @@ const Main = () => {
               href="https://www.linkedin.com/in/enrique-moran-garrido"
               target="_blank"
             >
-              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
                 <FaLinkedin size={25} />
               </div>
             </Link>
             <Link href="https://github.com/EnriqueMoranGarrido" target="_blank">
-              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
                 <FaGithub size={25} />
               </div>
             </Link>
-            <Link href="/#contact" target="_blank">
-              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            {/* <Link href="/#contact" target="_blank">
+              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
                 <AiOutlineMail size={25} />
               </div>
-            </Link>
-            <Link href="/#resume" target="_blank">
-              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <BsFillPersonLinesFill size={25} />
-              </div>
-            </Link>
-            <Link href="https://github.com/EnriqueMoranGarrido" target="_blank">
-              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            </Link> */}
+            <Link href="https://twitter.com/ImMythic2" target="_blank">
+              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
                 <FaTwitter size={25} />
               </div>
             </Link>
+            <Link href="/#resume" target="_blank">
+              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
+                <BsFillPersonLinesFill size={25} />
+              </div>
+            </Link>
+
+            <div
+              onClick={() => {
+                window.open(
+                  "mailto:enrique.morango04@outlook.com?subject=Subject&body=Body%20goes%20here"
+                );
+              }}
+            >
+              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
+                <AiOutlineMail size={25} />
+              </div>
+            </div>
           </div>
         </div>
       </div>

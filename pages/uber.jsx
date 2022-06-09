@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import netflixImg from "../public/assets/projects/netflix.jpg";
+import uberImg from "../public/assets/projects/2.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const netflix = () => {
+const crypto = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -13,12 +13,12 @@ const netflix = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={netflixImg}
+          src={uberImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Netflix App</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className="py-2">Uber Eats Mobile App (Clone)</h2>
+          <h3>React Native / Expo CLI / AWS Amplify</h3>
         </div>
       </div>
 
@@ -27,16 +27,16 @@ const netflix = () => {
           <p className="my-4">Project</p>
           <h2 className="my-4">Overview</h2>
           <p className="my-4">
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup & signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            This is a mobile app that was built using React JS, React Native,
+            and Amazon Web Services for the backend. Users can select the
+            restaurants and dishes of their preference; and create their orders.
+            User authentication is available so you can signup & signin to your
+            account with an email address in order to save your orders and the
+            restaurants information. The authentication process is validated by
+            an automated validation email. This is made possible with Amazon Web
+            Services Amplify.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          {/* <button className="px-8 py-2 mt-4 mr-8">Demo</button> */}
           <button className="px-8 py-2 mt-4">Code</button>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
@@ -44,22 +44,16 @@ const netflix = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> React
+                <RiRadioButtonFill className="pr-1" /> React / React Native
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Tailwind
+                <RiRadioButtonFill className="pr-1" /> Expo CLI
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Firebase
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Google API
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Zillow API
+                <RiRadioButtonFill className="pr-1" /> AWS: Amplify
               </p>
             </div>
           </div>
@@ -72,4 +66,4 @@ const netflix = () => {
   );
 };
 
-export default netflix;
+export default crypto;
