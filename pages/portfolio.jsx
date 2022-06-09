@@ -37,10 +37,10 @@ const portfolio = () => {
           <p>
             This web application was built using Next JS and is hosted on
             GitHub. This is my personal space to share with you the projects
-            that I've built and new ones that are still in progress. This is the
-            second version of my portfolio that I've built and will be updated
-            in the future. Users can access a description page of the projects,
-            a detailed version of my resume, and my certificates.
+            that I&apos;ve built and new ones that are still in progress. This
+            is the second version of my portfolio that I&apos;ve built and will
+            be updated in the future. Users can access a description page of the
+            projects, a detailed version of my resume, and my certificates.
           </p>
           <Link href="/">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>

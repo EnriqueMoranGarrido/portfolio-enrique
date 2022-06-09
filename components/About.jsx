@@ -1,9 +1,6 @@
 import React from "react";
 import five from "../public/assets/projects/5.png";
 import Image from "next/image";
-import Head from "next/head";
-
-import icon from "../public/favicon.ico";
 
 const About = () => {
   return (

@@ -36,10 +36,7 @@ const resume = () => {
         <div className="bg-[#039898] my-4 p-4 w-full flex justify-between items-center">
           <h2 className="text-center text-gray-100">Enrique Morán Garrido</h2>
           <div className="flex">
-            <a
-              href="https://www.linkedin.com/in/enrique-moran-garrido"
-              target="_blank"
-            >
+            <a href="https://www.linkedin.com/in/enrique-moran-garrido">
               <FaLinkedinIn
                 size={23}
                 color="white"
@@ -278,7 +275,6 @@ const resume = () => {
             <HiArrowCircleRight size={30} className="mx-4" color="#039898" />
           </div>
         </Link>
-
         <div className="flex justify-center py-12">
           <Link href="/resume">
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
