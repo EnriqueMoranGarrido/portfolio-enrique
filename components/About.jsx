@@ -1,6 +1,6 @@
 import React from "react";
 import five from "../public/assets/projects/5.png";
-import Image from "next-optimized-images";
+import Image from "next/image";
 import Link from "next/link";
 
 const About = () => {
