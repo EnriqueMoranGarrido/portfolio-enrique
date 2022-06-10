@@ -1,6 +1,7 @@
 import React from "react";
 import five from "../public/assets/projects/5.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -16,9 +17,7 @@ const About = () => {
             </p>
             <h2 className="py-4">Who I Am</h2>
 
-            <p className="py-2 text-gray-600">
-              // I am not your average engineer
-            </p>
+            <p className="py-2 text-gray-600">I am not your average engineer</p>
             <p className="py-2 text-gray-600">
               I am a recent graduated Mechatronics Engineer and I have spent the
               last 6 years learning different tools and blooming my passion for
@@ -34,11 +33,11 @@ const About = () => {
               am now spending my time building projects with React JS, AWS, TIA
               PORTAL, FluidSIM and learning new technologies.
             </p>
-            <a href="/#projects">
+            <Link href="/#projects">
               <p className="py-2 text-[#039898] underline cursor-pointer">
                 Check out some of my latest projects.
               </p>
-            </a>
+            </Link>
           </div>
           <div className="w-full h-auto m-auto shadow-md shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
             <Image src={five} width="900px" height="626px" alt="/" />

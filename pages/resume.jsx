@@ -206,9 +206,9 @@ const resume = () => {
           <p className="py-1 italic">Mechatronics Engineer Intern</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Ensured comprehensive understanding of digital twin's modeling
-              using MATLAB and Simulink, its issues and implementation as the
-              robotics course complementary material.
+              Ensured comprehensive understanding of digital twin&apos;s
+              modeling using MATLAB and Simulink, its issues and implementation
+              as the robotics course complementary material.
             </li>
             <li>
               Designed the digital twin for the 6 degrees of freedom UR5 robotic
@@ -238,8 +238,8 @@ const resume = () => {
               <li>
                 <div className="py-2 items-center text-left">
                   <p>
-                    Bachelor's Degree in Mechatronics Engineering at Universidad
-                    de las Américas Puebla
+                    Bachelor&apos;s Degree in Mechatronics Engineering at
+                    Universidad de las Américas Puebla
                   </p>
                   <p>— Aug 2016 - Dec 2021</p>
                 </div>
