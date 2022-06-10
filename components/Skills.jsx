@@ -17,8 +17,8 @@ const Skills = () => {
                   <Link
                     src="../public/assets/projects/python.png"
                     alt="/"
-                    width="900px"
-                    height="626px"
+                    width="64px"
+                    height="64px"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
