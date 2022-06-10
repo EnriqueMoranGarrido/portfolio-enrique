@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Link from "next/link";
+import Image from "next/image";
 
 const Skills = () => {
   return (
@@ -15,7 +15,7 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Link
+                  <Image
                     src="../public/assets/projects/python.png"
                     alt="/"
                     width="64px"
@@ -32,7 +32,7 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image
+                  <img
                     src="https://portfolio-enrique-images.s3.amazonaws.com/skills/javascript.png"
                     width="64px"
                     height="64px"
