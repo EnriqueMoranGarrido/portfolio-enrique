@@ -166,6 +166,11 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
+              <Link href="/#resume">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Resume
+                </li>
+              </Link>
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
@@ -194,7 +199,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href="https://github.com/EnriqueMoranGarrido"
+                  href="https://twitter.com/ImMythic2"
                   // target="_blank"
                 >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898]">
