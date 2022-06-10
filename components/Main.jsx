@@ -10,7 +10,7 @@ const Main = () => {
     <div id="home" className="w-full h-screen text-center">
       <div className=" max-w-[1240px] w-full h-full mx-auto flex p-2 justify-center items-center ">
         <div>
-          <p className="uppercase text-sm tracking-widest text-gray-600">
+          <p className="uppercase text-sm tracking-widest text-gray-600 xs:hidden">
             LET&apos;S BUILD SOMETHING TOGETHER!
           </p>
           <h1 className="py-4 text-gray-700">

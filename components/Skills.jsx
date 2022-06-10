@@ -66,7 +66,7 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image
+                  <img
                     src="https://portfolio-enrique-images.s3.amazonaws.com/skills/css.png"
                     width="64px"
                     height="64px"
@@ -83,7 +83,7 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image
+                  <img
                     src="https://portfolio-enrique-images.s3.amazonaws.com/skills/react.png"
                     width="64px"
                     height="64px"
@@ -100,7 +100,7 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image
+                  <img
                     src="https://portfolio-enrique-images.s3.amazonaws.com/skills/expo.png"
                     width="64px"
                     height="64px"
@@ -117,7 +117,7 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image
+                  <img
                     src="https://portfolio-enrique-images.s3.amazonaws.com/skills/amplify.png"
                     width="64px"
                     height="64px"
@@ -134,7 +134,7 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image
+                  <img
                     src="https://portfolio-enrique-images.s3.amazonaws.com/skills/github1.png"
                     width="64px"
                     height="64px"
@@ -151,7 +151,7 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image
+                  <img
                     src="https://portfolio-enrique-images.s3.amazonaws.com/skills/autocad.png"
                     width="64px"
                     height="64px"
@@ -168,10 +168,10 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image
+                  <img
                     src="https://portfolio-enrique-images.s3.amazonaws.com/skills/fusion.png"
                     width="64px"
-                    height="60px"
+                    height="64px"
                     alt="/"
                   />
                 </div>
@@ -185,7 +185,7 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image
+                  <img
                     src="https://portfolio-enrique-images.s3.amazonaws.com/skills/matlab.png"
                     width="64px"
                     height="64px"
@@ -202,7 +202,7 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image
+                  <img
                     src="https://portfolio-enrique-images.s3.amazonaws.com/skills/tia.png"
                     width="64px"
                     height="64px"
@@ -219,9 +219,9 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image
+                  <img
                     src="https://portfolio-enrique-images.s3.amazonaws.com/skills/proteus.png"
-                    width="80px"
+                    width="64px"
                     height="64px"
                     alt="/"
                   />
@@ -236,9 +236,9 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image
+                  <img
                     src="https://portfolio-enrique-images.s3.amazonaws.com/skills/multisim.png"
-                    width="70px"
+                    width="64px"
                     height="64px"
                     alt="/"
                   />
@@ -253,7 +253,7 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image
+                  <img
                     src="https://portfolio-enrique-images.s3.amazonaws.com/skills/visualsc.png"
                     width="70px"
                     height="64px"
@@ -270,7 +270,7 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image
+                  <img
                     src="https://portfolio-enrique-images.s3.amazonaws.com/skills/atom.png"
                     width="70px"
                     height="64px"
