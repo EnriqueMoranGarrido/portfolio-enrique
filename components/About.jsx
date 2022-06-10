@@ -17,21 +17,24 @@ const About = () => {
             </p>
             <h2 className="py-4">Who I Am</h2>
 
-            <p className="py-2 text-gray-600">I am not your average engineer</p>
+            <p className="py-2 text-gray-600">
+              I am not your average engineer.
+            </p>
             <p className="py-2 text-gray-600">
               I am a recent graduated Mechatronics Engineer and I have spent the
               last 6 years learning different tools and blooming my passion for
               technology. In 2017 I started programming and interacting with
               microcontrollers. What I thought was just a few small puzzles /
-              assignments, turned into a love for programming.
+              assignments, turned into my great love for programming.
             </p>
             <p className="py-2 text-gray-600">
-              Fascinated with how intricate programming can be I was quickly
-              drawn to learn more. I started learning javascript and PLCs, and
-              was even more enthused with making interactive projects such as
-              web and mobile applications, and industrial automation systems. I
-              am now spending my time building projects with React JS, AWS, TIA
-              PORTAL, FluidSIM and learning new technologies.
+              Fascinated with how intricated programming can be, I was quickly
+              drawn to learn more. I started learning JavaScript, PLCs, and
+              other technologies that made me feel even more enthused to start
+              building my own interactive projects such as web and mobile
+              applications, and industrial automation systems. Now I spend my
+              time building projects with React JS, AWS, TIA PORTAL, and
+              expanding my toolset.
             </p>
             <Link href="/#projects">
               <p className="py-2 text-[#039898] underline cursor-pointer">

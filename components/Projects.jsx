@@ -1,7 +1,5 @@
 import React from "react";
-import Crypto from "../public/assets/projects/crypto.jpg";
 import Netflix from "../public/assets/projects/netflix.jpg";
-import Twitch from "../public/assets/projects/twitch.jpg";
 import Portfolio from "../public/assets/projects/portfolio.png";
 import ProjectItem from "./ProjectItem";
 import Uber from "../public/assets/projects/1.png";

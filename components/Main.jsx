@@ -7,12 +7,15 @@ import Link from "next/link";
 
 const Main = () => {
   return (
-    <div id="home" className="w-full h-screen text-center">
+    <div
+      id="home"
+      className="w-full h-screen text-center items-center align-middle"
+    >
       <div className=" max-w-[1240px] w-full h-full mx-auto flex p-2 justify-center items-center ">
         <div>
-          <p className="uppercase text-sm tracking-widest text-gray-600 xs:hidden">
+          {/* <p className="uppercase text-sm tracking-widest text-gray-600 hidden">
             LET&apos;S BUILD SOMETHING TOGETHER!
-          </p>
+          </p> */}
           <h1 className="py-4 text-gray-700">
             Hi, I&apos;m <span className="text-[#039898]"> Enrique</span>
           </h1>
