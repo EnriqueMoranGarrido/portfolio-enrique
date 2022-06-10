@@ -17,6 +17,8 @@ const Skills = () => {
                   <Image
                     src="https://portfolio-enrique-images.s3.amazonaws.com/skills/python.png"
                     alt="/"
+                    width={100}
+                    height={100}
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
