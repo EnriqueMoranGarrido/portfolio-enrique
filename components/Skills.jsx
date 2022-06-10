@@ -16,8 +16,6 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image
                     src="https://portfolio-enrique-images.s3.amazonaws.com/skills/python.png"
-                    width="64px"
-                    height="64px"
                     alt="/"
                   />
                 </div>
