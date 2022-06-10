@@ -14,11 +14,11 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image
-                    src="../public/assets/projects/python.png"
-                    alt="/"
+                  <img
+                    src="https://portfolio-enrique-images.s3.amazonaws.com/skills/python.png"
                     width="64px"
                     height="64px"
+                    alt="/"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -49,7 +49,7 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image
+                  <img
                     src="https://portfolio-enrique-images.s3.amazonaws.com/skills/html.png"
                     width="64px"
                     height="64px"
