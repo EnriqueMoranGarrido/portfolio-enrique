@@ -1,9 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import Python from "../public/assets/skills/Python.png";
-import JavaScript from "../public/assets/skills/javascript.png";
-import HTML from "../public/assets/skills/html.png";
-import CSS from "../public/assets/skills/css.png";
 
 const Skills = () => {
   return (
@@ -18,7 +14,12 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image src={Python} width="64px" height="64px" alt="/" />
+                  <Image
+                    src="https://portfolio-enrique-images.s3.amazonaws.com/skills/python.png"
+                    width="64px"
+                    height="64px"
+                    alt="/"
+                  />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3>Python</h3>
@@ -30,7 +31,12 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image src={JavaScript} width="64px" height="64px" alt="/" />
+                  <Image
+                    src="https://portfolio-enrique-images.s3.amazonaws.com/skills/javascript.png"
+                    width="64px"
+                    height="64px"
+                    alt="/"
+                  />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3>JavaScript</h3>
@@ -43,7 +49,12 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image src={HTML} width="64px" height="64px" alt="/" />
+                  <Image
+                    src="https://portfolio-enrique-images.s3.amazonaws.com/skills/html.png"
+                    width="64px"
+                    height="64px"
+                    alt="/"
+                  />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3>HTML</h3>
@@ -55,7 +66,12 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image src={CSS} width="64px" height="64px" alt="/" />
+                  <Image
+                    src="https://portfolio-enrique-images.s3.amazonaws.com/skills/css.png"
+                    width="64px"
+                    height="64px"
+                    alt="/"
+                  />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3>CSS</h3>
@@ -68,7 +84,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/react.png"
+                    src="https://portfolio-enrique-images.s3.amazonaws.com/skills/react.png"
                     width="64px"
                     height="64px"
                     alt="/"
@@ -85,7 +101,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/expo.png"
+                    src="https://portfolio-enrique-images.s3.amazonaws.com/skills/expo.png"
                     width="64px"
                     height="64px"
                     alt="/"
@@ -102,7 +118,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/amplify.png"
+                    src="https://portfolio-enrique-images.s3.amazonaws.com/skills/amplify.png"
                     width="64px"
                     height="64px"
                     alt="/"
@@ -119,7 +135,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/github1.png"
+                    src="https://portfolio-enrique-images.s3.amazonaws.com/skills/github1.png"
                     width="64px"
                     height="64px"
                     alt="/"
@@ -136,7 +152,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/autocad.png"
+                    src="https://portfolio-enrique-images.s3.amazonaws.com/skills/autocad.png"
                     width="64px"
                     height="64px"
                     alt="/"
@@ -153,7 +169,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/fusion.png"
+                    src="https://portfolio-enrique-images.s3.amazonaws.com/skills/fusion.png"
                     width="64px"
                     height="60px"
                     alt="/"
@@ -170,7 +186,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/matlab.png"
+                    src="https://portfolio-enrique-images.s3.amazonaws.com/skills/matlab.png"
                     width="64px"
                     height="64px"
                     alt="/"
@@ -187,7 +203,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/tia.png"
+                    src="https://portfolio-enrique-images.s3.amazonaws.com/skills/tia.png"
                     width="64px"
                     height="64px"
                     alt="/"
@@ -204,7 +220,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/proteus.png"
+                    src="https://portfolio-enrique-images.s3.amazonaws.com/skills/proteus.png"
                     width="80px"
                     height="64px"
                     alt="/"
@@ -221,7 +237,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/multisim.png"
+                    src="https://portfolio-enrique-images.s3.amazonaws.com/skills/multisim.png"
                     width="70px"
                     height="64px"
                     alt="/"
@@ -238,7 +254,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/visualsc.png"
+                    src="https://portfolio-enrique-images.s3.amazonaws.com/skills/visualsc.png"
                     width="70px"
                     height="64px"
                     alt="/"
@@ -255,7 +271,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="/../public/assets/skills/atom.png"
+                    src="https://portfolio-enrique-images.s3.amazonaws.com/skills/atom.png"
                     width="70px"
                     height="64px"
                     alt="/"
