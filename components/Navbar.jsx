@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
+import Image from "next-optimized-images";
 import Link from "next/link";
 import logo from "../public/assets/new-logo.png";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
