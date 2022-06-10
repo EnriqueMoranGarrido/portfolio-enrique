@@ -20,9 +20,9 @@ const Main = () => {
           <p className="py-4 text-gray-600 max-w-[60%] m-auto text-xl">
             {" "}
             I am passionate for technology and have recently started my journey
-            as a software developer. Currently I&apos;m focused on building
-            learning how to build and design full-stack applications and
-            industrial automation systems.
+            as a software developer. Currently I&apos;m focused on learning how
+            to build and design full-stack applications and industrial
+            automation systems.
           </p>
           <div className="sm:max-w-[60%] text-center items-center m-auto">
             <p className="py-4 mt-2  text-bold text-lg italic">

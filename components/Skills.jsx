@@ -15,7 +15,7 @@ const Skills = () => {
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <Image
-                    src="https://portfolio-enrique-images.s3.amazonaws.com/skills/python.png"
+                    src="../public/assets/projects/python.png"
                     alt="/"
                     width={100}
                     height={100}
