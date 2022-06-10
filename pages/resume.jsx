@@ -267,14 +267,111 @@ const resume = () => {
         </div>
 
         {/*  Certificates */}
-        <Link href="/certificates">
+        {/* <Link href="/certificates">
           <div className="text-left py-4 flex flex-row items-center hover:cursor-pointer">
             <p className="text-left underline text-[18px] py-2 uppercase text-2xl font-bold text-[#039898]">
               Certificates
             </p>
             <HiArrowCircleRight size={30} className="mx-4" color="#039898" />
           </div>
-        </Link>
+        </Link> */}
+        {/* Amazon   */}
+        <div className="text-left py-4 mt-8">
+          <p className="text-left underline text-[18px] py-2 uppercase text-2xl font-bold text-[#039898]">
+            Amazon Web Services (AWS)
+          </p>
+          <div className="py-2 grid grid-cols-5 justify-center items-center indent-8">
+            <p className="my-4 col-span-3 ">
+              Machine Learning Terminology and Process.
+            </p>
+            <p className="italics text-right col-span-2 text-[#039898]">2022</p>
+            <p className="my-4 col-span-3 ">
+              Process Model: CRISP-DM on the AWS Stack.
+            </p>
+            <p className="italics text-right col-span-2 text-[#039898]">2022</p>
+            <p className="my-4 col-span-4 ">
+              Machine Learning Essentials for Business and Technical Decision
+              Makers.
+            </p>
+            <p className="italics text-right col-span-1 text-[#039898]">2022</p>
+            <p className="my-4 col-span-3 ">
+              ML Building Blocks: Services and Terminology.
+            </p>
+            <p className="italics text-right col-span-2 text-[#039898]">2022</p>
+            <p className="my-4 col-span-3 ">
+              Machine Learning for Business Challenges.
+            </p>
+            <p className="italics text-right col-span-2 text-[#039898]">2022</p>
+
+            <p className="my-4 col-span-3 ">Demystifying AI/ML/DL.</p>
+            <p className="italics text-right col-span-2 text-[#039898]">2022</p>
+          </div>
+        </div>
+
+        {/* HackerRank   */}
+        <div className="text-left py-4 mt-8">
+          <p className="text-left underline text-[18px] py-2 uppercase text-2xl font-bold text-[#039898]">
+            HackerRank
+          </p>
+          <div className="py-2 grid grid-cols-5 justify-center items-center indent-8">
+            <p className="my-4 col-span-3 ">JavaScript (Basic).</p>
+            <p className="italics text-right col-span-2 text-[#039898]">2022</p>
+            <p className="my-4 col-span-3 ">SQL (Basic).</p>
+            <p className="italics text-right col-span-2 text-[#039898]">2021</p>
+            <p className="my-4 col-span-4 ">Python (Basics).</p>
+            <p className="italics text-right col-span-1 text-[#039898]">2021</p>
+          </div>
+        </div>
+
+        {/* IEEE   */}
+        <div className="text-left py-4 mt-8">
+          <p className="text-left underline text-[18px] py-2 uppercase text-2xl font-bold text-[#039898]">
+            Institute of Electrical and Electronics Engineers (IEEE)
+          </p>
+          <div className="py-2 grid grid-cols-5 justify-center items-center indent-8">
+            <p className="my-4 col-span-3 ">
+              Engineering Ethics: Power Engineering.
+            </p>
+            <p className="italics text-right col-span-2 text-[#039898]">2020</p>
+            <p className="my-4 col-span-3 ">
+              Engineering Ethics: Topics for Robotics and Automation
+              Engineering.
+            </p>
+            <p className="italics text-right col-span-2 text-[#039898]">2020</p>
+          </div>
+        </div>
+
+        {/* Universal Robots   */}
+        <div className="text-left py-4 mt-8">
+          <p className="text-left underline text-[18px] py-2 uppercase text-2xl font-bold text-[#039898]">
+            Universal Robots
+          </p>
+          <div className="py-2 grid grid-cols-5 justify-center items-center indent-8">
+            <p className="my-4 col-span-3 ">e-Series: Core Track.</p>
+            <p className="italics text-right col-span-2 text-[#039898]">2020</p>
+            <p className="my-4 col-span-3 ">e-Series: Pro Track.</p>
+            <p className="italics text-right col-span-2 text-[#039898]">2020</p>
+            <p className="my-4 col-span-3 ">e-Series: Application Track.</p>
+            <p className="italics text-right col-span-2 text-[#039898]">2020</p>
+            <p className="my-4 col-span-3 ">CB3: Online Training.</p>
+            <p className="italics text-right col-span-2 text-[#039898]">2020</p>
+          </div>
+        </div>
+
+        {/* MathWorks   */}
+        <div className="text-left py-4 mt-8">
+          <p className="text-left underline text-[18px] py-2 uppercase text-2xl font-bold text-[#039898]">
+            MathWorks
+          </p>
+          <div className="py-2 grid grid-cols-5 justify-center items-center indent-8">
+            <p className="my-4 col-span-3 ">Introduction to MATLAB.</p>
+            <p className="italics text-right col-span-2 text-[#039898]">2019</p>
+            <p className="my-4 col-span-3 ">Deep Learning Onramp.</p>
+            <p className="italics text-right col-span-2 text-[#039898]">2019</p>
+            <p className="my-4 col-span-3 ">Simulink Onramp.</p>
+            <p className="italics text-right col-span-2 text-[#039898]">2019</p>
+          </div>
+        </div>
         <div className="flex justify-center py-12">
           <Link href="/resume">
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
