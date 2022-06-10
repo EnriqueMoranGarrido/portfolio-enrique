@@ -38,7 +38,7 @@ const Projects = () => {
             title="Web Portfolio"
             image={Portfolio}
             projectUrl="/portfolio"
-            tools="JavaScript /Next Js / TailwindCSS / GitHub  "
+            tools="JavaScript /Next Js / TailwindCSS / GitHub / AWS Amplify / AWS S3  "
           />
         </div>
       </div>
