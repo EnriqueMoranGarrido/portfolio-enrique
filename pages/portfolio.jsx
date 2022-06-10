@@ -26,7 +26,9 @@ const portfolio = () => {
             </div>
           </Link>
           <h2 className="py-2">Web Portfolio</h2>
-          <h3>Nex JS / Tailwind</h3>
+          <h3>
+            JavaScript /Next Js / TailwindCSS / GitHub / AWS Amplify / AWS S3{" "}
+          </h3>
         </div>
       </div>
 
