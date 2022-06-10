@@ -46,7 +46,7 @@ const resume = () => {
                 style={{ marginRight: "1rem" }}
               />
             </a>
-            <Link href="/#resume">
+            <Link href="/">
               <BsGlobe2
                 size={23}
                 color="white"
