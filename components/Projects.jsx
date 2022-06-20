@@ -4,6 +4,7 @@ import Portfolio from "../public/assets/projects/portfolio.png";
 import ProjectItem from "./ProjectItem";
 import Uber from "../public/assets/projects/1.png";
 import Pinterest from "../public/assets/projects/4.png";
+import Twitch from "../public/assets/projects/twitch-portfolio.png";
 
 const Projects = () => {
   return (
@@ -27,10 +28,10 @@ const Projects = () => {
             tools="React / React Native / Expo CLI / AWS Amplify / GitHub "
           />
           <ProjectItem
-            title="Netflix UI"
-            image={Netflix}
-            projectUrl="/netflix"
-            tools="React JS / Tailwind / Firebase"
+            title="Twitch UI"
+            image={Twitch}
+            projectUrl="/twitch"
+            tools="Next JS / TailwindCSS / Next Auth / Google Auth / GitHub Auth "
           />
           <ProjectItem
             title="Web Portfolio"

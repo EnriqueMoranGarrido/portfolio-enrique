@@ -38,7 +38,7 @@ const crypto = () => {
           <p className="my-4">
             This is a mobile app that was built using React JS, React Native,
             and Amazon Web Services for the backend. Users can select the
-            restaurants and dishes of their preference; and create their orders.
+            restaurants and dishes of their preference and create their orders.
             User authentication is available so you can signup & signin to your
             account with an email address in order to save your orders and the
             restaurants information. The authentication process is validated by
