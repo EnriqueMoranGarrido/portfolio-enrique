@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import twitchImg from "../public/assets/projects/twitch2-portfolio.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
+import { HiArrowCircleLeft } from "react-icons/hi";
 import Link from "next/link";
 
 const twitch = () => {
@@ -17,6 +18,13 @@ const twitch = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
+          <Link href="/#projects">
+            <div className="underline cursor-pointer absolute bottom-[98%] ">
+              {" "}
+              <HiArrowCircleLeft size={35} color="white" />
+              <p className="text-white">BACK</p>
+            </div>
+          </Link>
           <h2 className="py-2">Twitch UI</h2>
           <h3>Next JS / TailwindCSS</h3>
         </div>
@@ -35,12 +43,20 @@ const twitch = () => {
             few features to note with this project are lazy loading images using
             the Image component, built in routing, and Next/Auth Context
           </p>
-          <Link href="https://twitch-ep5uvjmfm-enriquemorangarrido.vercel.app">
+          <a
+            href="https://twitch-ep5uvjmfm-enriquemorangarrido.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          </Link>
-          <Link href="/">
+          </a>
+          <a
+            href="https://github.com/EnriqueMoranGarrido/twitch.git"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4">Code</button>
-          </Link>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
@@ -67,9 +83,9 @@ const twitch = () => {
             </div>
           </div>
         </div>
-        <Link href="/#projects">
+        {/* <Link href="/#projects">
           <p className="underline cursor-pointer">Back</p>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
