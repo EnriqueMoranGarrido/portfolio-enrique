@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 const Skills = () => {
   return (
@@ -278,6 +279,13 @@ const Skills = () => {
               </div>
             </div>
           </a>
+        </div>
+        <div className="items-center flex justify-center mt-8">
+          {/* <Link href="/tools">
+            <button className="w-[50%] p-4 text-gray-100 mt-4  from-[#709dff]  to-[#039898] justify-center items-center">
+              View Full Set of Tools
+            </button>
+          </Link> */}
         </div>
       </div>
     </div>
