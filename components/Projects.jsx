@@ -5,10 +5,11 @@ import ProjectItem from "./ProjectItem";
 import Uber from "../public/assets/projects/1.png";
 import Pinterest from "../public/assets/projects/4.png";
 import Twitch from "../public/assets/projects/twitch-portfolio.png";
+import Link from "next/link";
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full mt-28">
+    <div id="projects" className="w-full mt-28 items-center justify-center">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className=" py-4 uppercase  text-2xl tracking-widest  text-[#039898]">
           Projects
@@ -40,6 +41,13 @@ const Projects = () => {
             tools="JavaScript /Next Js / TailwindCSS / GitHub / AWS Amplify / AWS S3  "
           />
         </div>
+      </div>
+      <div className="flex w-full justify-center items-center ">
+        <Link href="/projects">
+          <button className="w-[55%] p-4 text-gray-100 mt-4  justify-center items-center text-2xl ">
+            Take a look at all my projects!
+          </button>
+        </Link>
       </div>
     </div>
   );

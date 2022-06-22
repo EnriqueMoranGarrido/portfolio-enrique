@@ -3,8 +3,11 @@ import Link from "next/link";
 
 const Resume = () => {
   return (
-    <div id="resume" className="w-full lg:h-screen p-2 mt-[5%]">
-      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
+    <div
+      id="resume"
+      className="w-full lg:h-screen p-2 mt-[5%] justify-center items-center"
+    >
+      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full ">
         <p className=" py-4 uppercase  text-2xl tracking-widest  text-[#039898]">
           Resume
         </p>
@@ -50,11 +53,6 @@ const Resume = () => {
                 </li>
               </ul>
             </div>
-            <Link href="/resume">
-              <button className="w-[100%] p-4 text-gray-100 mt-4  from-[#709dff]  to-[#039898] ">
-                View Full Resume
-              </button>
-            </Link>
           </div>
           <div>
             <h2 className="py-2 mt-6 mb-4 uppercase">Education</h2>
@@ -110,6 +108,13 @@ const Resume = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="flex justify-center items-center w-full mt-10">
+          <Link href="/resume">
+            <button className="w-[55%] p-4 text-gray-100   from-[#709dff]  to-[#039898] text-2xl ">
+              View Full Resume
+            </button>
+          </Link>
         </div>
       </div>
     </div>

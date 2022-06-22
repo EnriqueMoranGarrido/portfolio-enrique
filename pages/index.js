@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="bg-gray-100">
       <Head>
-        <title>Enrique | Mechatronics Engineer</title>
+        <title>Enrique Morán | Portfolio</title>
       </Head>
       <Navbar />
       <Main />

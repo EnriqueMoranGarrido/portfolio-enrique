@@ -19,7 +19,7 @@ const ProjectItem = ({ title, image, projectUrl, tools }) => {
             </h3>
             <p className="text-white text-center pb-4 pt-2">{tools}</p>
             <Link href={projectUrl}>
-              <p className="text-center rounded-lg py-3 bg-white text-gray-700 font-bold italic text-lg cursor-pointer">
+              <p className="text-center rounded-lg py-3 bg-white text-gray-700 font-bold italic text-lg cursor-pointer hover:bg-black hover:text-white">
                 More Info
               </p>
             </Link>

@@ -24,7 +24,7 @@ const resume = () => {
         />
       </Head>
 
-      <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
+      <div className="max-w-[940px] mx-auto p-2 pt-[120px] justify-center items-center">
         <Link href="/#resume">
           <div className="underline cursor-pointer uppercase">
             {" "}
