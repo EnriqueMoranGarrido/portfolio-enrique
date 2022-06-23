@@ -50,13 +50,13 @@ const resume = () => {
                 style={{ marginRight: "1rem" }}
               />
             </a>
-            <Link href="/#resume">
+            <a href="/#resume" className="hover:cursor-pointer">
               <BsGlobe2
                 size={23}
                 color="white"
                 style={{ marginRight: "1rem" }}
               />
-            </Link>
+            </a>
           </div>
         </div>
         <div className="text-center py-4 text-xl font-bold uppercase tracking-wider"></div>
@@ -108,7 +108,7 @@ const resume = () => {
               <span className="px-2">|</span>Next JS
               <span className="px-2">|</span>TailwindCSS
               <span className="px-2">|</span>Amazon Web Services: Amplify
-              <span className="px-2">|</span>GitHub
+              <span className="px-2">|</span>Version Control (Git)
             </p>
           </div>
           <div className="py-2">

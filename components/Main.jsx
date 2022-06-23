@@ -9,9 +9,9 @@ const Main = () => {
   return (
     <div
       id="home"
-      className="w-full h-screen text-center items-center align-middle"
+      className="w-full h-screen text-center items-center align-middle justify-center"
     >
-      <div className=" max-w-[1240px] w-full h-full mx-auto flex p-2 justify-center items-center ">
+      <div className=" max-w-[1240px] w-full h-full mx-auto flex p-2  items-center ">
         <div>
           {/* <p className="uppercase text-sm tracking-widest text-gray-600 hidden">
             LET&apos;S BUILD SOMETHING TOGETHER!

@@ -5,12 +5,9 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <>
-      <div
-        id="about"
-        className="w-full md:h-screen p-2 flex items-center py-16  justify-center "
-      >
-        <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+    <div id="about" className="w-[400px] sm:w-full justify-center ">
+      <div className="w-full md:h-screen p-2 flex  py-16   ">
+        <div className="max-w-[1240px] m-auto md:grid md:grid-cols-3 md:gap-8">
           <div className="col-span-2">
             <p className="py-4 uppercase  text-2xl tracking-widest  text-[#039898]">
               About
@@ -45,7 +42,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

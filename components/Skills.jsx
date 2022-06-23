@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="w-full lg:h-screen p-2 justify-center items-center"
+      className=" w-[400px] sm:w-full lg:h-screen p-2 justify-center items-center align-middle"
     >
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className=" py-4 uppercase  text-2xl tracking-widest  text-[#039898]">
