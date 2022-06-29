@@ -45,13 +45,13 @@ const Projects = () => {
           />
         </div>
       </div>
-      {/* <div className="flex w-full justify-center items-center ">
+      <div className="flex w-full justify-center items-center ">
         <Link href="/projects">
           <button className="w-[55%] p-4 text-gray-100 mt-4  justify-center items-center text-2xl ">
             Take a look at all my projects!
           </button>
         </Link>
-      </div> */}
+      </div>
     </div>
   );
 };
