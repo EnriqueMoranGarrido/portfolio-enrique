@@ -59,13 +59,13 @@ const projects = () => {
                 style={{ marginRight: "1rem" }}
               />
             </a>
-            <a href="/#resume" className="hover:cursor-pointer">
+            <Link href="/#resume" className="hover:cursor-pointer">
               <BsGlobe2
                 size={23}
                 color="white"
                 style={{ marginRight: "1rem" }}
               />
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -169,7 +169,6 @@ const projects = () => {
         </Link>
 
         <h1 className="text-gray-600 text-center mt-10 italic">
-          {" "}
           Stay tuned for more!{" "}
         </h1>
 

@@ -50,13 +50,13 @@ const resume = () => {
                 style={{ marginRight: "1rem" }}
               />
             </a>
-            <a href="/#resume" className="hover:cursor-pointer">
+            <Link href="/#resume" className="hover:cursor-pointer">
               <BsGlobe2
                 size={23}
                 color="white"
                 style={{ marginRight: "1rem" }}
               />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="text-center py-4 text-xl font-bold uppercase tracking-wider"></div>
