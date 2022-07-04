@@ -2,9 +2,9 @@ import React from "react";
 import Netflix from "../public/assets/projects/netflix.jpg";
 import Portfolio from "../public/assets/projects/portfolio.png";
 import ProjectItem from "./ProjectItem";
-import Uber from "../public/assets/projects/1.png";
-import Pinterest from "../public/assets/projects/4.png";
-import Twitch from "../public/assets/projects/twitch-portfolio.png";
+import Uber from "../public/assets/projects/general/2.png";
+import Pinterest from "../public/assets/projects/general/4.png";
+import Twitch from "../public/assets/projects/twitch2.jpg";
 import Link from "next/link";
 import Disney from "../public/assets/projects/disney-portfolio.jpg";
 
@@ -26,6 +26,13 @@ const Projects = () => {
             projectUrl="/disney"
             tools="JavaScript / Next Js / TailwindCSS / GitHub / AWS Amplify / AWS S3 / Next Auth / Google Auth "
           />
+
+          <ProjectItem
+            title="Twitch UI"
+            image={Twitch}
+            projectUrl="/twitch"
+            tools="Next JS / TailwindCSS / Next Auth / Google Auth / GitHub Auth "
+          />
           <ProjectItem
             title="Uber Eats Mobile App"
             image={Uber}
@@ -38,18 +45,13 @@ const Projects = () => {
             projectUrl="/pinterest"
             tools="React / React Native / Expo CLI / AWS Amplify / GitHub "
           />
-          <ProjectItem
-            title="Twitch UI"
-            image={Twitch}
-            projectUrl="/twitch"
-            tools="Next JS / TailwindCSS / Next Auth / Google Auth / GitHub Auth "
-          />
-          <ProjectItem
+
+          {/* <ProjectItem
             title="Web Portfolio"
             image={Portfolio}
             projectUrl="/portfolio"
             tools="JavaScript /Next Js / TailwindCSS / GitHub / AWS Amplify / AWS S3  "
-          />
+          /> */}
         </div>
       </div>
       <div className="flex w-full justify-center items-center ">

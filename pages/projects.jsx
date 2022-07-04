@@ -74,7 +74,7 @@ const projects = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <div className="  flex sm:flex-row flex-col border-4 hover:border-[#039898] rounded-t-2xl rounded-b-2xl shadow-xl shadow-gray-400 hover:cursor-pointer my-6">
+          <div className="  flex sm:flex-row flex-col border-4 hover:border-[#039898] rounded-t-2xl rounded-b-2xl shadow-md shadow-gray-400 p-2 hover:scale-105  ease-in duration-300 hover:cursor-pointer my-6">
             <div className="sm:w-[50%]">
               <Image
                 src={disney}
@@ -122,7 +122,7 @@ const projects = () => {
         </Link>
 
         <Link href="/twitch">
-          <div className="  flex sm:flex-row flex-col border-4 hover:border-[#039898] rounded-t-2xl rounded-b-2xl shadow-xl shadow-gray-400 hover:cursor-pointer">
+          <div className="  flex sm:flex-row flex-col border-4 hover:border-[#039898] rounded-t-2xl rounded-b-2xl shadow-md shadow-gray-400 hover:cursor-pointer p-2 hover:scale-105  ease-in duration-300">
             <div className="sm:w-[50%]">
               <Image
                 src={project1}
