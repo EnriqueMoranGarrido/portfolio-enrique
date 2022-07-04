@@ -8,6 +8,8 @@ module.exports = {
     screens: {
       xs: "240px",
       // => @media (min-width: 240px) { ... }
+      nxs: "441px",
+      // => @media (min-width: 441px) { ... }
       sm: "640px",
       // => @media (min-width: 640px) { ... }
 

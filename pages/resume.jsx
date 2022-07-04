@@ -63,7 +63,7 @@ const resume = () => {
 
         <div className="flex flex-row m-auto justify-center items-center ">
           <BsHouseDoorFill size={20} className="mx-1 " />
-          <p>Puebla, Mexico</p>
+          <p className="hidden sm:flex">Puebla, Mexico</p>
           <span className="px-1">|</span>
           <BsTelephoneFill size={15} className="mx-1" />
           <p>+52 2281199877</p>
@@ -89,8 +89,9 @@ const resume = () => {
           <div className="py-2">
             <p className="font-bold">Programming Languages</p>
             <p>
-              Python
-              <span className="px-2">|</span>JavaScript
+              JavaScript
+              <span className="px-2">|</span>TypeScript
+              <span className="px-2">|</span>Python
               <span className="px-2">|</span>Java
               <span className="px-2">|</span>C++
               <span className="px-2">|</span> C<span className="px-2">|</span>
@@ -107,7 +108,7 @@ const resume = () => {
               <span className="px-2">|</span>React Native
               <span className="px-2">|</span>Next JS
               <span className="px-2">|</span>TailwindCSS
-              <span className="px-2">|</span>Amazon Web Services: Amplify
+              <span className="px-2">|</span>Amazon Web Services
               <span className="px-2">|</span>Version Control (Git)
             </p>
           </div>
@@ -115,6 +116,8 @@ const resume = () => {
             <p className="font-bold">Softwares</p>
             <p>
               STEP7 / TIA PORTAL
+              <span className="px-2">|</span>Visual Studio Code
+              <span className="px-2">|</span>Atom
               <span className="px-2">|</span>FluidSIM
               <span className="px-2">|</span>AutoCAD
               <span className="px-2">|</span>AutoDesk Fusion 360
@@ -122,8 +125,6 @@ const resume = () => {
               <span className="px-2">|</span>Proteus Design Suite
               <span className="px-2">|</span>MATLAB & Simulink
               <span className="px-2">|</span>National Instruments LabVIEW
-              <span className="px-2">|</span>Visual Studio Code
-              <span className="px-2">|</span>Atom
               <span className="px-2">|</span>Arduino IDE
             </p>
           </div>

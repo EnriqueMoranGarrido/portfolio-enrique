@@ -6,12 +6,13 @@ import Uber from "../public/assets/projects/1.png";
 import Pinterest from "../public/assets/projects/4.png";
 import Twitch from "../public/assets/projects/twitch-portfolio.png";
 import Link from "next/link";
+import Disney from "../public/assets/projects/disney-portfolio.jpg";
 
 const Projects = () => {
   return (
     <div
       id="projects"
-      className="w-[400px] sm:w-full mt-28 items-center justify-center align-middle"
+      className="w-[400px] nxs:w-full sm:w-full mt-28 items-center justify-center align-middle"
     >
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className=" py-4 uppercase  text-2xl tracking-widest  text-[#039898]">
@@ -19,6 +20,12 @@ const Projects = () => {
         </p>
         <h2 className="py-4">My Crafts</h2>
         <div className="grid md:grid-cols-2 gap-8 ">
+          <ProjectItem
+            title="Disney +"
+            image={Disney}
+            projectUrl="/disney"
+            tools="JavaScript / Next Js / TailwindCSS / GitHub / AWS Amplify / AWS S3 / Next Auth / Google Auth "
+          />
           <ProjectItem
             title="Uber Eats Mobile App"
             image={Uber}
