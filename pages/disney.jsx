@@ -57,7 +57,7 @@ const twitch = () => {
           </p>
 
           <p className="py-4 mx-auto">
-            By the way, I hope you enjoy the "content"!
+            By the way, I hope you enjoy the 'content'!
           </p>
 
           <a
