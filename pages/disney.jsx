@@ -3,7 +3,7 @@ import React from "react";
 import disneyImg from "../public/assets/projects/disney-portfolio.jpg";
 import disneyImg1 from "../public/assets/projects/disney/disney1.jpg";
 import disneyImg2 from "../public/assets/projects/disney/disney2.jpg";
-import disneyImg3 from "../public/assets/projects/disney/disney3.jpg";
+import disneyImg3 from "../public/assets/projects/disney/disney3.png";
 import disneyImg4 from "../public/assets/projects/disney/disney4.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import { HiArrowCircleLeft } from "react-icons/hi";
