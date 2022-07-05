@@ -9,7 +9,7 @@ const Main = () => {
   return (
     <div
       id="home"
-      className="w-[440px]  nsx:w-full h-screen text-center items-center align-middle justify-center"
+      className="w-[440px] nxs:w-full h-screen text-center items-center align-middle justify-center"
     >
       <div className=" max-w-[1240px] w-full h-full mx-auto flex p-2  items-center ">
         <div>

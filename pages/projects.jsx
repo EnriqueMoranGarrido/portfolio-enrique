@@ -2,6 +2,9 @@ import ProjectRightLeft from "../components/ProjectRightLeft";
 
 import React from "react";
 import Head from "next/head";
+
+import Navbar from "../components/Navbar";
+
 import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsTelephoneFill, BsHouseDoorFill, BsGlobe2 } from "react-icons/bs";
@@ -31,7 +34,7 @@ const projects = () => {
           content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
         />
       </Head>
-
+      <Navbar />
       <div className="max-w-[940px] mx-auto p-2 pt-[120px] justify-center items-center">
         <Link href="/#projects">
           <div className="underline cursor-pointer uppercase">

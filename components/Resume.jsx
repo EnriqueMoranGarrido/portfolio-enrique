@@ -72,7 +72,7 @@ const Resume = () => {
                 </li>
               </ul>
             </div>
-            <div className="nxs:flex hidden xl:flex flex-col">
+            <div className=" hidden xl:flex flex-col">
               <h2 className="py-2 mt-5 mb-4 uppercase hidden nxs:flex">
                 Certification
               </h2>
