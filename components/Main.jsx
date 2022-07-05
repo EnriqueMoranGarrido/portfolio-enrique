@@ -12,27 +12,21 @@ const Main = () => {
       className="w-[440px] nxs:w-full h-screen text-center items-center align-middle justify-center"
     >
       <div className=" max-w-[1240px] w-full h-full mx-auto flex p-2  items-center ">
-        <div>
-          {/* <p className="uppercase text-sm tracking-widest text-gray-600 hidden">
-            LET&apos;S BUILD SOMETHING TOGETHER!
-          </p> */}
+        <div className="">
           <h1 className="py-4 text-gray-700">
             Hi, I&apos;m <span className="text-[#039898]"> Enrique</span>
           </h1>
           <h2 className="py-4 text-gray-500 italic">A Mechatronics Engineer</h2>
-          <p className="py-4 text-gray-600 max-w-[60%] m-auto text-xl">
-            {" "}
+          <p className="py-4 text-gray-600 max-w-[63%] m-auto text-xl">
             I am passionate for technology and have recently started my journey
-            as a software developer. Currently I&apos;m focused on learning how
-            to build and design full-stack applications and industrial
-            automation systems.
+            as a software developer. Currently I&apos;m focused on building and
+            designing full-stack applications.
           </p>
           <div className="nxs:max-w-[60%] text-center items-center m-auto">
             <p className="py-4 mt-2  text-bold text-lg italic">
               Graduated from engineering since 2021,
             </p>
             <span className="text-[#039898] text-bold text-lg italic">
-              {" "}
               loving it since 1998.
             </span>
           </div>

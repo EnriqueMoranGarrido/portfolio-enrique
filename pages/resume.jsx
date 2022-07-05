@@ -1,20 +1,18 @@
 import React from "react";
 import Head from "next/head";
-import Navbar from "../components/Navbar";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { BsTelephoneFill, BsHouseDoorFill, BsGlobe2 } from "react-icons/bs";
+import { BsHouseDoorFill, BsGlobe2 } from "react-icons/bs";
 
-import {
-  HiOutlineChevronDoubleUp,
-  HiArrowCircleLeft,
-  HiArrowCircleRight,
-} from "react-icons/hi";
-import icon from "../public/favicon.ico";
+import { HiOutlineChevronDoubleUp, HiArrowCircleLeft } from "react-icons/hi";
 
 import Link from "next/link";
 
+import SkillResume from "../components/SkillResume";
+
 const resume = () => {
+  const skill2Style =
+    "w-auto h-auto border-2 rounded-lg inline-block p-1 px-2 border-gray-300 hover:border-[#709dff] hover:scale-105 ease-in duration-150 mx-[0.3%]";
   return (
     <>
       <Head>
@@ -66,9 +64,6 @@ const resume = () => {
           <BsHouseDoorFill size={20} className="mx-1 hidden sm:flex " />
           <p className="hidden sm:flex">Puebla, Mexico</p>
           <span className="px-1 hidden sm:flex ">|</span>
-          <BsTelephoneFill size={15} className="mx-1" />
-          <p>+52 2281199877</p>
-          <span className="px-1">|</span>
           <div
             className="flex hover:cursor-pointer"
             onClick={() => {
@@ -89,55 +84,44 @@ const resume = () => {
           </p>
           <div className="py-2">
             <p className="font-bold">Programming Languages</p>
-            <p>
-              JavaScript
-              <span className="px-2">|</span>TypeScript
-              <span className="px-2">|</span>Python
-              <span className="px-2">|</span>Java
-              <span className="px-2">|</span>C++
-              <span className="px-2">|</span> C<span className="px-2">|</span>
-              SQL
-            </p>
+
+            <div className="">
+              <SkillResume skill="JavaScript" style={skill2Style} />
+              <SkillResume skill="TypeScript" style={skill2Style} />
+              <SkillResume skill="Python" style={skill2Style} />
+              <SkillResume skill="Java" style={skill2Style} />
+              <SkillResume skill="C++" style={skill2Style} />
+              <SkillResume skill="C" style={skill2Style} />
+              <SkillResume skill="SQL" style={skill2Style} />
+              <SkillResume skill="GraphQL" style={skill2Style} />
+            </div>
           </div>
 
           <div className="py-2">
             <p className="font-bold">Technologies</p>
-            <p>
-              HTML
-              <span className="px-2">|</span>CSS
-              <span className="px-2">|</span>React JS
-              <span className="px-2">|</span>React Native
-              <span className="px-2">|</span>Next JS
-              <span className="px-2">|</span>TailwindCSS
-              <span className="px-2">|</span>Amazon Web Services
-              <span className="px-2">|</span>Version Control (Git)
-            </p>
+            <div className="">
+              <SkillResume skill="HTML 5" style={skill2Style} />
+              <SkillResume skill="CSS 3" style={skill2Style} />
+              <SkillResume skill="React JS" style={skill2Style} />
+              <SkillResume skill="React Native" style={skill2Style} />
+              <SkillResume skill="Next JS" style={skill2Style} />
+              <SkillResume skill="TailwindCSS" style={skill2Style} />
+              <SkillResume skill="Amazon Web Services" style={skill2Style} />
+              <SkillResume skill="Version Control (Git)" style={skill2Style} />
+            </div>
           </div>
-          <div className="py-2">
-            <p className="font-bold">Softwares</p>
-            <p>
-              STEP7 / TIA PORTAL
-              <span className="px-2">|</span>Visual Studio Code
-              <span className="px-2">|</span>Atom
-              <span className="px-2">|</span>FluidSIM
-              <span className="px-2">|</span>AutoCAD
-              <span className="px-2">|</span>AutoDesk Fusion 360
-              <span className="px-2">|</span>Multisim
-              <span className="px-2">|</span>Proteus Design Suite
-              <span className="px-2">|</span>MATLAB & Simulink
-              <span className="px-2">|</span>National Instruments LabVIEW
-              <span className="px-2">|</span>Arduino IDE
-            </p>
-          </div>
+
           <div className="py-2">
             <p className="font-bold">Others</p>
-            <p>
-              MySQL
-              <span className="px-2">|</span>MongoDB
-              <span className="px-2">|</span>Profibus
-              <span className="px-2">|</span>CAN
-              <span className="px-2">|</span>Scrum
-            </p>
+            <div>
+              <SkillResume skill=" Visual Studio Code" style={skill2Style} />
+              <SkillResume skill="Atom" style={skill2Style} />
+              <SkillResume skill="MySQL" style={skill2Style} />
+              <SkillResume skill="MongoDB" style={skill2Style} />
+              <SkillResume skill="RESTful API" style={skill2Style} />
+              <SkillResume skill="SCRUM" style={skill2Style} />
+              <SkillResume skill="Version Control (Git)" style={skill2Style} />
+            </div>
           </div>
         </div>
 
@@ -172,7 +156,7 @@ const resume = () => {
         {/* Experience */}
         <div className="py-4">
           <p className="italic">
-            <span className="font-bold">IVAC - DAAD</span>
+            <span className="font-bold">DAAD</span>
             <span className="px-2">|</span> Remote
           </p>
           <p className="py-1 italic">
