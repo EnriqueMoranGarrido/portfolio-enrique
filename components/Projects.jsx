@@ -54,9 +54,9 @@ const Projects = () => {
           /> */}
         </div>
       </div>
-      <div className="flex w-full justify-center items-center ">
+      <div className="flex w-[430px] nxs:w-full justify-center items-center ">
         <Link href="/projects">
-          <button className="w-[55%] p-4 text-gray-100 mt-4  justify-center items-center text-2xl ">
+          <button className="w-[90%] nxs:w-[55%] p-4 text-gray-100 mt-4  justify-center items-center text-2xl ">
             All my projects!
           </button>
         </Link>

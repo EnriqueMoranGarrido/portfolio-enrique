@@ -106,9 +106,9 @@ const Resume = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center w-full mt-10">
+        <div className="flex justify-center items-center w-[430px] nxs:w-full mt-10">
           <Link href="/resume">
-            <button className="w-[55%] p-4 text-gray-100   from-[#709dff]  to-[#039898] text-2xl ">
+            <button className="w-[90%] nxs:w-[55%] p-4 text-gray-100   from-[#709dff]  to-[#039898] text-2xl">
               View Full Resume
             </button>
           </Link>
