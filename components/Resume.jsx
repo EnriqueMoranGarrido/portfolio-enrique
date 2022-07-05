@@ -3,16 +3,13 @@ import Link from "next/link";
 
 const Resume = () => {
   return (
-    <div
-      id="resume"
-      className="w-[400px] sm:w-full lg:h-screen p-2 mt-[5%] justify-center items-center align-middle"
-    >
-      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full ">
+    <div id="resume" className="w-[400px] nxs:w-full lg:h-screen p-2 mt-[5%] ">
+      <div className="max-w-[1240px] mx-auto flex flex-col h-full ">
         <p className=" py-4 uppercase  text-2xl tracking-widest  text-[#039898]">
           Resume
         </p>
 
-        <div className="grid sm:grid-cols-1 xl:grid-cols-2 gap-8">
+        <div className="grid nxs:grid-cols-1 xl:grid-cols-2 gap-8">
           <div>
             <h2 className="py-2 mt-6 mb-4 uppercase">Experience</h2>
             {/* Experience */}
@@ -75,8 +72,8 @@ const Resume = () => {
                 </li>
               </ul>
             </div>
-            <div className="sm:flex md:hidden xl:flex flex-col">
-              <h2 className="py-2 mt-5 mb-4 uppercase xs:hidden">
+            <div className="nxs:flex hidden xl:flex flex-col">
+              <h2 className="py-2 mt-5 mb-4 uppercase hidden nxs:flex">
                 Certification
               </h2>
               <div>

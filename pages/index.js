@@ -10,7 +10,7 @@ import Resume from "../components/Resume";
 
 export default function Home() {
   return (
-    <div className="bg-gray-100">
+    <div className="">
       <Head>
         <title>Enrique Morán | Portfolio</title>
       </Head>
