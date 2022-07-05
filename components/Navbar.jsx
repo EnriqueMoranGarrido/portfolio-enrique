@@ -122,7 +122,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-300"
+              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-full bg-[#ecf0f3] p-10 ease-in duration-300"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
@@ -177,43 +177,33 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            <div className="pt-8">
+            <div className="pt-16">
               <p className="uppercase tracking-widest text-[#039898]">
                 Let&apos;s Connect
               </p>
-              <div className="flex items-center justify-between my-8 w-full nxs:w-[90%]  ">
-                <a
-                  href="https://www.linkedin.com/in/enrique-moran-garrido"
-                  // target="_blank"
-                >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
-                    <FaLinkedin size={20} />
-                  </div>
-                </a>
-                <a
-                  href="https://github.com/EnriqueMoranGarrido"
-                  // target="_blank"
-                >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898]">
-                    <FaGithub size={20} />
-                  </div>
-                </a>
-                <a
-                  href="https://twitter.com/ImMythic2"
-                  // target="_blank"
-                >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898]">
-                    <FaTwitter size={20} />
-                  </div>
-                </a>
-                <Link href="/#resume">
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898]"
-                  >
-                    <BsFillPersonLinesFill size={20} />
-                  </div>
+              <div className="flex items-center justify-between my-8 w-full nxs:w-[90%] ">
+                <Link href="https://www.linkedin.com/in/enrique-moran-garrido">
+                  <a target="_blank" rel="noopener noreferrer">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
+                      <FaLinkedin size={20} />
+                    </div>
+                  </a>
                 </Link>
+                <Link href="https://github.com/EnriqueMoranGarrido">
+                  <a target="_blank" rel="noopener noreferrer">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898]">
+                      <FaGithub size={20} />
+                    </div>
+                  </a>
+                </Link>
+                <Link href="https://twitter.com/ImMythic2">
+                  <a target="_blank" rel="noopener noreferrer">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898]">
+                      <FaTwitter size={20} />
+                    </div>
+                  </a>
+                </Link>
+
                 <Link href="/#contact">
                   <div
                     onClick={() => setNav(!nav)}
