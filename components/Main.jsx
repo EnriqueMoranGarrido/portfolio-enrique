@@ -9,7 +9,7 @@ const Main = () => {
   return (
     <div
       id="home"
-      className="w-full h-screen text-center items-center align-middle justify-center"
+      className="w-[440px]  nsx:w-full h-screen text-center items-center align-middle justify-center"
     >
       <div className=" max-w-[1240px] w-full h-full mx-auto flex p-2  items-center ">
         <div>
@@ -27,7 +27,7 @@ const Main = () => {
             to build and design full-stack applications and industrial
             automation systems.
           </p>
-          <div className="sm:max-w-[60%] text-center items-center m-auto">
+          <div className="nxs:max-w-[60%] text-center items-center m-auto">
             <p className="py-4 mt-2  text-bold text-lg italic">
               Graduated from engineering since 2021,
             </p>
