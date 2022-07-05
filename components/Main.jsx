@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaTwitter, FaPhoneAlt } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -61,11 +61,6 @@ const Main = () => {
                 <FaTwitter size={25} />
               </div>
             </a>
-            <Link href="/#resume">
-              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
-                <BsFillPersonLinesFill size={25} />
-              </div>
-            </Link>
 
             <div
               onClick={() => {
@@ -78,6 +73,17 @@ const Main = () => {
                 <AiOutlineMail size={25} />
               </div>
             </div>
+
+            {/* <a href="tel:+522281199877">
+              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
+                <FaPhoneAlt size={25} className="nav-linker " />
+              </div>
+            </a> */}
+            <Link href="/#resume">
+              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
+                <BsFillPersonLinesFill size={25} />
+              </div>
+            </Link>
           </div>
         </div>
       </div>

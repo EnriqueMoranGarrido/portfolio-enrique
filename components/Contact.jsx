@@ -70,6 +70,11 @@ const Contact = () => {
                       <FaGithub size={25} />
                     </div>
                   </a>
+                  <a href="https://twitter.com/ImMythic2">
+                    <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
+                      <FaTwitter size={25} />
+                    </div>
+                  </a>
                   <Link href="/#contact">
                     <div
                       className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] "
@@ -82,16 +87,11 @@ const Contact = () => {
                       <AiOutlineMail size={25} />
                     </div>
                   </Link>
-                  <Link href="/#resume">
+                  {/* <Link href="/#resume">
                     <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
                       <BsFillPersonLinesFill size={25} />
                     </div>
-                  </Link>
-                  <a href="https://twitter.com/ImMythic2">
-                    <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
-                      <FaTwitter size={25} />
-                    </div>
-                  </a>
+                  </Link> */}
                 </div>
               </div>
             </div>
