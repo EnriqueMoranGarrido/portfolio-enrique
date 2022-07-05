@@ -1,11 +1,8 @@
-import ProjectRightLeft from "../components/ProjectRightLeft";
-
 import React from "react";
 import Head from "next/head";
 
 import Navbar from "../components/Navbar";
 
-import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsTelephoneFill, BsHouseDoorFill, BsGlobe2 } from "react-icons/bs";
 

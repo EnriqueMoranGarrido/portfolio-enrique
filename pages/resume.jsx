@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Navbar from "../components/Navbar";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsTelephoneFill, BsHouseDoorFill, BsGlobe2 } from "react-icons/bs";
@@ -62,9 +63,9 @@ const resume = () => {
         <div className="text-center py-4 text-xl font-bold uppercase tracking-wider"></div>
 
         <div className="flex flex-row m-auto justify-center items-center ">
-          <BsHouseDoorFill size={20} className="mx-1 " />
+          <BsHouseDoorFill size={20} className="mx-1 hidden sm:flex " />
           <p className="hidden sm:flex">Puebla, Mexico</p>
-          <span className="px-1">|</span>
+          <span className="px-1 hidden sm:flex ">|</span>
           <BsTelephoneFill size={15} className="mx-1" />
           <p>+52 2281199877</p>
           <span className="px-1">|</span>
