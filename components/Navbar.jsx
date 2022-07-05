@@ -122,7 +122,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-full bg-[#ecf0f3] p-10 ease-in duration-500"
+              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-300"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
@@ -177,11 +177,11 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            <div className="pt-40">
+            <div className="pt-8">
               <p className="uppercase tracking-widest text-[#039898]">
                 Let&apos;s Connect
               </p>
-              <div className="flex items-center justify-between my-4 w-full sm:w-[90%] mx-4">
+              <div className="flex items-center justify-between my-8 w-full nxs:w-[90%]  ">
                 <a
                   href="https://www.linkedin.com/in/enrique-moran-garrido"
                   // target="_blank"
