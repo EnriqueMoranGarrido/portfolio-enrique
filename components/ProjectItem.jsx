@@ -7,7 +7,7 @@ const ProjectItem = ({ title, image, projectUrl, tools }) => {
     <div className="hover:scale-105 ease-in duration-300">
       {" "}
       <Link href={projectUrl}>
-        <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#039898] to-[#709dff]">
+        <div className="relative flex items-center justify-center h-auto w-[440px] nxs:w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#039898] to-[#709dff]">
           <Image
             src={image}
             alt="/"
