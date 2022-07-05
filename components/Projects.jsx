@@ -24,7 +24,7 @@ const Projects = () => {
             title="Disney +"
             image={Disney}
             projectUrl="/disney"
-            tools="JavaScript / Next Js / TailwindCSS / GitHub / AWS Amplify / AWS S3 / Next Auth / Google Auth "
+            tools="Next Js / TailwindCSS / GitHub / AWS Amplify / AWS S3 / Next Auth / Google Auth "
           />
 
           <ProjectItem
@@ -37,13 +37,13 @@ const Projects = () => {
             title="Uber Eats Mobile App"
             image={Uber}
             projectUrl="/uber"
-            tools="React / React Native / Expo CLI / AWS Amplify / GitHub "
+            tools="React Native / Expo CLI / AWS Amplify / GitHub "
           />
           <ProjectItem
             title="Pinterest Mobile App"
             image={Pinterest}
             projectUrl="/pinterest"
-            tools="React / React Native / Expo CLI / AWS Amplify / GitHub "
+            tools="React Native / Expo CLI / AWS Amplify / GitHub "
           />
 
           {/* <ProjectItem
