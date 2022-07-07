@@ -21,6 +21,8 @@ import { RiRadioButtonFill } from "react-icons/ri";
 import project1 from "../public/assets/projects/twitch-portfolio.png";
 import disney from "../public/assets/projects/disney-portfolio.jpg";
 
+import ProjectOverview from "../components/ProjectOverview";
+
 const projects = () => {
   return (
     <>
@@ -85,7 +87,7 @@ const projects = () => {
               />
             </div>
             <div className="sm:w-[50%]">
-              <h2 className="bg-[#040714] text-center text-white  sm:rounded-tr-2xl">
+              <h2 className="bg-[#039898] text-center text-white  sm:rounded-tr-2xl">
                 Disney+ Clone
               </h2>
               <p className="px-2">
@@ -133,7 +135,7 @@ const projects = () => {
               />
             </div>
             <div className="sm:w-[50%]">
-              <h2 className="bg-[#6441a5] text-center text-white  sm:rounded-tr-2xl">
+              <h2 className="bg-[#039898] text-center text-white  sm:rounded-tr-2xl">
                 Twitch Clone
               </h2>
               <p className="px-2">
@@ -167,6 +169,8 @@ const projects = () => {
             </div>
           </div>
         </Link>
+
+        <ProjectOverview />
 
         <h1 className="text-gray-600 text-center mt-10 italic">
           Stay tuned for more!{" "}
