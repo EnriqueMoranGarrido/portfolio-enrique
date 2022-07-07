@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../public/assets/new-logo.png";
-import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
-import { FaLinkedin, FaGithub, FaTwitter, FaTwitch } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+
 import { useRouter } from "next/router";
+
+import ConnectionsSocials from "./ConnectionsSocials";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -182,36 +183,7 @@ const Navbar = () => {
                 Let&apos;s Connect
               </p>
               <div className="flex items-center justify-between my-8 w-full nxs:w-[90%] ">
-                <Link href="https://www.linkedin.com/in/enrique-moran-garrido">
-                  <a target="_blank" rel="noopener noreferrer">
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
-                      <FaLinkedin size={20} />
-                    </div>
-                  </a>
-                </Link>
-                <Link href="https://github.com/EnriqueMoranGarrido">
-                  <a target="_blank" rel="noopener noreferrer">
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898]">
-                      <FaGithub size={20} />
-                    </div>
-                  </a>
-                </Link>
-                <Link href="https://twitter.com/ImMythic2">
-                  <a target="_blank" rel="noopener noreferrer">
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898]">
-                      <FaTwitter size={20} />
-                    </div>
-                  </a>
-                </Link>
-
-                <Link href="/#contact">
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898]"
-                  >
-                    <AiOutlineMail size={20} />
-                  </div>
-                </Link>
+                <ConnectionsSocials />
               </div>
             </div>
           </div>

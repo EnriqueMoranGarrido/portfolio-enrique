@@ -3,15 +3,11 @@ import Head from "next/head";
 
 import Navbar from "../components/Navbar";
 import UpButton from "../components/UpButton";
-
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-
-import Link from "next/link";
-
 import BackButton from "../components/BackButton";
 import ProjectOverview from "../components/ProjectOverview";
-import projectsData from "../public/assets/projectData";
 import InformationBanner from "../components/InformationBanner";
+
+import projectsData from "../public/assets/projectData";
 
 const projects = () => {
   return (
