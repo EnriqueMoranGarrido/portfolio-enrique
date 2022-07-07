@@ -1,9 +1,6 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaTwitter, FaPhoneAlt } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 
-import Link from "next/link";
+import ConnectionsSocials from "./ConnectionsSocials";
 
 const Main = () => {
   return (
@@ -31,56 +28,8 @@ const Main = () => {
             </span>
           </div>
 
-          <div className="flex items-center justify-between max-w-[500px] m-auto py-4">
-            <Link href="https://www.linkedin.com/in/enrique-moran-garrido">
-              <a target="_blank" rel="noopener noreferrer">
-                <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
-                  <FaLinkedin size={25} />
-                </div>
-              </a>
-            </Link>
-            <Link href="https://github.com/EnriqueMoranGarrido">
-              <a target="_blank" rel="noopener noreferrer">
-                <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
-                  <FaGithub size={25} />
-                </div>
-              </a>
-            </Link>
-            {/* <Link href="/#contact" target="_blank">
-              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
-                <AiOutlineMail size={25} />
-              </div>
-            </Link> */}
-            <Link href="https://twitter.com/ImMythic2">
-              <a target="_blank" rel="noopener noreferrer">
-                <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
-                  <FaTwitter size={25} />
-                </div>
-              </a>
-            </Link>
-
-            <div
-              onClick={() => {
-                window.open(
-                  "mailto:enrique.morango04@outlook.com?subject=Subject&body=Body%20goes%20here"
-                );
-              }}
-            >
-              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
-                <AiOutlineMail size={25} />
-              </div>
-            </div>
-
-            {/* <a href="tel:+522281199877">
-              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
-                <FaPhoneAlt size={25} className="nav-linker " />
-              </div>
-            </a> */}
-            <Link href="/#resume">
-              <div className=" rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#039898] ">
-                <BsFillPersonLinesFill size={25} />
-              </div>
-            </Link>
+          <div className="flex items-center justify-between max-w-[90%] nxs:max-w-[550px] m-auto py-4">
+            <ConnectionsSocials page={"big"} resume={"yes"} />
           </div>
         </div>
       </div>

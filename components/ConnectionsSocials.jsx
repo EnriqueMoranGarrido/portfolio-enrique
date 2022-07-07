@@ -2,11 +2,12 @@ import React from "react";
 import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
-const ConnectionsSocials = ({ page }) => {
+const ConnectionsSocials = ({ page, resume }) => {
   let size = 20;
   let padding = "p-3";
-  if (page === "contact") {
+  if (page === "big") {
     size = 25;
     padding = "p-6";
   }
@@ -41,6 +42,13 @@ const ConnectionsSocials = ({ page }) => {
       <div onClick={() => setNav(!nav)} className={iconStyle}>
         <AiOutlineMail size={size} />
       </div>
+      {resume ? (
+        <Link href="/#resume">
+          <div className={iconStyle}>
+            <BsFillPersonLinesFill size={25} />
+          </div>
+        </Link>
+      ) : null}
     </div>
   );
 };

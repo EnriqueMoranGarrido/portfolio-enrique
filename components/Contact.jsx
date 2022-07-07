@@ -30,7 +30,7 @@ const Contact = () => {
               </p>
 
               <div className="flex items-center justify-between max-w-[500px] m-auto py-4">
-                <ConnectionsSocials page={"contact"} />
+                <ConnectionsSocials page={"big"} />
               </div>
             </div>
           </div>
