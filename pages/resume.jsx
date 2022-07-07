@@ -1,14 +1,16 @@
 import React from "react";
 import Head from "next/head";
 import { AiOutlineMail } from "react-icons/ai";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { BsHouseDoorFill, BsGlobe2 } from "react-icons/bs";
+import { BsHouseDoorFill } from "react-icons/bs";
 
-import { HiOutlineChevronDoubleUp, HiArrowCircleLeft } from "react-icons/hi";
+import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 import Link from "next/link";
 
 import SkillResume from "../components/SkillResume";
+import BackButton from "../components/BackButton";
+import InformationBanner from "../components/InformationBanner";
+import UpButton from "../components/UpButton";
 
 const resume = () => {
   const skill2Style =
@@ -24,41 +26,11 @@ const resume = () => {
       </Head>
 
       <div className="max-w-[940px] mx-auto p-2 pt-[120px] justify-center items-center">
-        <Link href="/#resume">
-          <div className="underline cursor-pointer uppercase">
-            {" "}
-            <HiArrowCircleLeft size={35} />
-            Back
-          </div>
-        </Link>
+        <BackButton link={"resume"} />
+
         <h2 className="text-center">Resume</h2>
-        <div className="bg-[#039898] my-4 p-4 w-full flex justify-between items-center">
-          <h2 className="text-center text-gray-100">Enrique Morán Garrido</h2>
-          <div className="flex">
-            <a href="https://www.linkedin.com/in/enrique-moran-garrido">
-              <FaLinkedinIn
-                size={23}
-                color="white"
-                style={{ marginRight: "1rem" }}
-              />
-            </a>
-            <a href="https://github.com/EnriqueMoranGarrido">
-              <FaGithub
-                size={23}
-                color="white"
-                style={{ marginRight: "1rem" }}
-              />
-            </a>
-            <Link href="/#resume" className="hover:cursor-pointer">
-              <BsGlobe2
-                size={23}
-                color="white"
-                style={{ marginRight: "1rem" }}
-              />
-            </Link>
-          </div>
-        </div>
-        <div className="text-center py-4 text-xl font-bold uppercase tracking-wider"></div>
+
+        <InformationBanner />
 
         <div className="flex flex-row m-auto justify-center items-center ">
           <BsHouseDoorFill size={20} className="mx-1 hidden sm:flex " />
@@ -253,15 +225,7 @@ const resume = () => {
         </div>
 
         {/*  Certificates */}
-        {/* <Link href="/certificates">
-          <div className="text-left py-4 flex flex-row items-center hover:cursor-pointer">
-            <p className="text-left underline text-[18px] py-2 uppercase text-2xl font-bold text-[#039898]">
-              Certificates
-            </p>
-            <HiArrowCircleRight size={30} className="mx-4" color="#039898" />
-          </div>
-        </Link> */}
-        {/* Amazon   */}
+
         <div className="text-left py-4 mt-8">
           <p className="text-left underline text-[18px] py-2 uppercase text-2xl font-bold text-[#039898]">
             Amazon Web Services (AWS)
@@ -358,13 +322,7 @@ const resume = () => {
             <p className="italics text-right col-span-2 text-[#039898]">2019</p>
           </div>
         </div>
-        <div className="flex justify-center py-12">
-          <Link href="/resume">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-              <HiOutlineChevronDoubleUp className="text-[#039898]" size={30} />
-            </div>
-          </Link>
-        </div>
+        <UpButton page={"/resume"} />
       </div>
     </>
   );

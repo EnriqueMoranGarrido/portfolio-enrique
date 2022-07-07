@@ -9,19 +9,29 @@ const InformationBanner = () => {
     <div className="bg-[#039898] my-4 p-4 w-full flex justify-between items-center">
       <h2 className="text-center text-gray-100">Enrique Morán Garrido</h2>
       <div className="flex">
-        <a href="https://www.linkedin.com/in/enrique-moran-garrido">
+        <a
+          href="https://www.linkedin.com/in/enrique-moran-garrido"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaLinkedinIn
             size={23}
             color="white"
             style={{ marginRight: "1rem" }}
           />
         </a>
-        <a href="https://github.com/EnriqueMoranGarrido">
+        <a
+          href="https://github.com/EnriqueMoranGarrido"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaGithub size={23} color="white" style={{ marginRight: "1rem" }} />
         </a>
-        <Link href="/#resume" className="hover:cursor-pointer">
-          <BsGlobe2 size={23} color="white" style={{ marginRight: "1rem" }} />
-        </Link>
+        <div className="hover:cursor-pointer">
+          <Link href="/#resume">
+            <BsGlobe2 size={23} color="white" style={{ marginRight: "1rem" }} />
+          </Link>
+        </div>
       </div>
     </div>
   );
