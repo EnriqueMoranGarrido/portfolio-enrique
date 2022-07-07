@@ -11,7 +11,7 @@ export default [
       "Javascript",
       "Next Auth",
       "Google Auth",
-      "GitHub Auth",
+      "Amazon Web Services",
     ],
     image:
       "https://portfolio-enrique-images.s3.amazonaws.com/projects/disney-portfolio.jpg",
@@ -30,6 +30,6 @@ export default [
       "GitHub Auth",
     ],
     image:
-      "https://portfolio-enrique-images.s3.amazonaws.com/projects/disney-portfolio.jpg",
+      "https://portfolio-enrique-images.s3.amazonaws.com/projects/twitch-general.jpg",
   },
 ];

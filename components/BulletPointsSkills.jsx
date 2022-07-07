@@ -1,9 +1,6 @@
 import React from "react";
 
 import { RiRadioButtonFill } from "react-icons/ri";
-// import projects from "../public/assets/projectData";
-
-// const project = projects[0];
 
 const BulletPointsSkills = ({ tools }) => {
   return (

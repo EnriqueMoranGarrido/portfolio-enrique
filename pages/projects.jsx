@@ -22,6 +22,7 @@ import project1 from "../public/assets/projects/twitch-portfolio.png";
 import disney from "../public/assets/projects/disney-portfolio.jpg";
 
 import ProjectOverview from "../components/ProjectOverview";
+import projectsData from "../public/assets/projectData";
 
 const projects = () => {
   return (
@@ -37,7 +38,6 @@ const projects = () => {
       <div className="max-w-[940px] mx-auto p-2 pt-[120px] justify-center items-center">
         <Link href="/#projects">
           <div className="underline cursor-pointer uppercase">
-            {" "}
             <HiArrowCircleLeft size={35} />
             Back
           </div>
@@ -70,105 +70,11 @@ const projects = () => {
             </Link>
           </div>
         </div>
-
-        <Link
-          href="https://disney-enriquemorangarrido.vercel.app"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="  flex sm:flex-row flex-col border-4 hover:border-[#039898] rounded-t-2xl rounded-b-2xl shadow-md shadow-gray-400 p-2 hover:scale-105  ease-in duration-300 hover:cursor-pointer my-6">
-            <div className="sm:w-[50%]">
-              <Image
-                src={disney}
-                width="75"
-                height="50"
-                layout="responsive"
-                className=" sm:rounded-l-2xl"
-              />
-            </div>
-            <div className="sm:w-[50%]">
-              <h2 className="bg-[#039898] text-center text-white  sm:rounded-tr-2xl">
-                Disney+ Clone
-              </h2>
-              <p className="px-2">
-                In this Disney+ clone, users may choose to be authenticated with
-                either a Google account and access the disney interface with
-                different features.
-              </p>
-              <div className="col-span-4 sm:col-span-2  rounded-xl p-0">
-                <div className="p-2">
-                  <div className="grid grid-cols-3 md:grid-cols-2">
-                    <p className="text-gray-600 py-2 flex items-center">
-                      <RiRadioButtonFill className="pr-1" /> Next JS
-                    </p>
-                    <p className="text-gray-600 py-2 flex items-center">
-                      <RiRadioButtonFill className="pr-1" /> Tailwind
-                    </p>
-                    <p className="text-gray-600 py-2 flex items-center">
-                      <RiRadioButtonFill className="pr-1" /> Javascript
-                    </p>
-                    <p className="text-gray-600 py-2 flex items-center">
-                      <RiRadioButtonFill className="pr-1" /> Next Auth
-                    </p>
-                    <p className="text-gray-600 py-2 flex items-center">
-                      <RiRadioButtonFill className="pr-1" /> Google Auth
-                    </p>
-                    <p className="text-gray-600 py-2 flex items-center">
-                      <RiRadioButtonFill className="pr-1" /> Amazon S3 buckets
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </Link>
-
-        <Link href="/twitch">
-          <div className="  flex sm:flex-row flex-col border-4 hover:border-[#039898] rounded-t-2xl rounded-b-2xl shadow-md shadow-gray-400 hover:cursor-pointer p-2 hover:scale-105  ease-in duration-300">
-            <div className="sm:w-[50%]">
-              <Image
-                src={project1}
-                width="75"
-                height="50"
-                layout="responsive"
-                className=" sm:rounded-l-2xl"
-              />
-            </div>
-            <div className="sm:w-[50%]">
-              <h2 className="bg-[#039898] text-center text-white  sm:rounded-tr-2xl">
-                Twitch Clone
-              </h2>
-              <p className="px-2">
-                In this Twitch clone, users may choose to be authenticated with
-                either a Github account or a Google account.
-              </p>
-              <div className="col-span-4 sm:col-span-2  rounded-xl p-0">
-                <div className="p-2">
-                  <div className="grid grid-cols-3 md:grid-cols-2">
-                    <p className="text-gray-600 py-2 flex items-center">
-                      <RiRadioButtonFill className="pr-1" /> Next JS
-                    </p>
-                    <p className="text-gray-600 py-2 flex items-center">
-                      <RiRadioButtonFill className="pr-1" /> Tailwind
-                    </p>
-                    <p className="text-gray-600 py-2 flex items-center">
-                      <RiRadioButtonFill className="pr-1" /> Javascript
-                    </p>
-                    <p className="text-gray-600 py-2 flex items-center">
-                      <RiRadioButtonFill className="pr-1" /> Next Auth
-                    </p>
-                    <p className="text-gray-600 py-2 flex items-center">
-                      <RiRadioButtonFill className="pr-1" /> Google Auth
-                    </p>
-                    <p className="text-gray-600 py-2 flex items-center">
-                      <RiRadioButtonFill className="pr-1" /> GitHub Auth
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </Link>
+        <div>
+          {projectsData.map((project) => (
+            <ProjectOverview project={project} />
+          ))}
+        </div>
 
         <ProjectOverview />
 
