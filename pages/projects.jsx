@@ -2,9 +2,7 @@ import React from "react";
 import Head from "next/head";
 
 import Navbar from "../components/Navbar";
-
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { BsGlobe2 } from "react-icons/bs";
+import UpButton from "../components/UpButton";
 
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
@@ -40,13 +38,7 @@ const projects = () => {
           Stay tuned for more!{" "}
         </h1>
 
-        <div className="flex justify-center py-12">
-          <Link href="/projects">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-              <HiOutlineChevronDoubleUp className="text-[#039898]" size={30} />
-            </div>
-          </Link>
-        </div>
+        <UpButton page={"/projects"} />
       </div>
     </>
   );

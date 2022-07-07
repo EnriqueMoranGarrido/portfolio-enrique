@@ -28,7 +28,7 @@ const InformationBanner = () => {
           <FaGithub size={23} color="white" style={{ marginRight: "1rem" }} />
         </a>
         <div className="hover:cursor-pointer">
-          <Link href="/#resume">
+          <Link href="/">
             <BsGlobe2 size={23} color="white" style={{ marginRight: "1rem" }} />
           </Link>
         </div>
