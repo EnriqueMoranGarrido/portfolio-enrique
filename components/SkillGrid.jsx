@@ -1,7 +1,7 @@
 import React from "react";
 import skillData from "../public/assets/skillsData";
 
-const SkillsMain = () => {
+const SkillGrid = () => {
   return (
     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
       {skillData.map((skill) => (
@@ -18,25 +18,8 @@ const SkillsMain = () => {
           </div>
         </a>
       ))}
-      {/* <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-        <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 max-h-[110px]">
-          <div className="grid grid-cols-2 gap-4 justify-center items-center">
-            <div className="m-auto">
-              <img
-                src="https://portfolio-enrique-images.s3.amazonaws.com/skills/javascript.png"
-                width="70px"
-                height="64px"
-                alt="/"
-              />
-            </div>
-            <div className="flex flex-col items-center justify-center">
-              <h3>JavaScript</h3>
-            </div>
-          </div>
-        </div>
-      </a> */}
     </div>
   );
 };
 
-export default SkillsMain;
+export default SkillGrid;

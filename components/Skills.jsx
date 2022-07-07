@@ -1,6 +1,6 @@
 import React from "react";
 
-import SkillsMain from "./SkillsMain";
+import SkillGrid from "./SkillGrid";
 
 const Skills = () => {
   return (
@@ -13,7 +13,7 @@ const Skills = () => {
           Skills
         </p>
         <h2 className="py-4">My Set of Tools</h2>
-        <SkillsMain />
+        <SkillGrid />
       </div>
     </div>
   );
