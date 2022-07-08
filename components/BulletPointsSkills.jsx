@@ -1,6 +1,7 @@
 import React from "react";
 
 import { RiRadioButtonFill } from "react-icons/ri";
+import BulletPointsKeyRendering from "./BulletPointsKeyRendering";
 
 const BulletPointsSkills = ({ tools }) => {
   return (
@@ -8,12 +9,7 @@ const BulletPointsSkills = ({ tools }) => {
       <div className="p-2">
         <div className="grid grid-cols-3 md:grid-cols-2">
           {tools.map((tool) => (
-            <>
-              key={tools.tool}
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> {tool}
-              </p>
-            </>
+            <BulletPointsKeyRendering key={tool} tool={tool} />
           ))}
         </div>
       </div>
