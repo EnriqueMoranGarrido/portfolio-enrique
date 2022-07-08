@@ -39,7 +39,12 @@ const ConnectionsSocials = ({ page, resume }) => {
         </a>
       </Link>
 
-      <div onClick={() => setNav(!nav)} className={iconStyle}>
+      <div
+        onClick={() => {
+          window.open("mailto:enrique.morango04@outlook.com?subject=&body=");
+        }}
+        className={iconStyle}
+      >
         <AiOutlineMail size={size} />
       </div>
       {resume ? (
