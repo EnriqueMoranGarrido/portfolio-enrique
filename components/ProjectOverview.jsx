@@ -23,6 +23,7 @@ const ProjectOverview = ({ project }) => {
                   height="50"
                   layout="responsive"
                   className=" sm:rounded-l-2xl"
+                  alt="/"
                 />
               </div>
               <div className="sm:w-[50%]">

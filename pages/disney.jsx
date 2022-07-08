@@ -108,7 +108,13 @@ const twitch = () => {
           <p className="underline cursor-pointer">Back</p>
         </Link> */}
 
-        <Image src={disneyImg} width="100" height="100" layout="responsive" />
+        <Image
+          src={disneyImg}
+          width="100"
+          height="100"
+          layout="responsive"
+          alt="/"
+        />
       </div>
     </div>
   );

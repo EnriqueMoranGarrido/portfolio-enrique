@@ -26,7 +26,7 @@ const projects = () => {
         <InformationBanner />
         <div>
           {projectsData.map((project) => (
-            <ProjectOverview project={project} />
+            <ProjectOverview key={project.id} project={project} />
           ))}
         </div>
 
