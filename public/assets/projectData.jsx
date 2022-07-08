@@ -13,8 +13,7 @@ export default [
       "Google Auth",
       "Amazon Web Services",
     ],
-    image:
-      "https://portfolio-enrique-images.s3.amazonaws.com/projects/disney-portfolio.jpg",
+    image: "/assets/projects/disney-portfolio.jpg",
   },
   {
     id: "1",
@@ -29,7 +28,6 @@ export default [
       "Google Auth",
       "GitHub Auth",
     ],
-    image:
-      "https://portfolio-enrique-images.s3.amazonaws.com/projects/twitch-general.jpg",
+    image: "/assets/projects/twitch-general.jpg",
   },
 ];
