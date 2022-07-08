@@ -2,12 +2,9 @@ import Image from "next/image";
 import React from "react";
 import disneyImg from "../public/assets/projects/disney-portfolio.jpg";
 import disneyImg1 from "../public/assets/projects/disney/disney1.jpg";
-import disneyImg2 from "../public/assets/projects/disney/disney2.jpg";
-import disneyImg3 from "../public/assets/projects/disney/disney3.png";
-import disneyImg4 from "../public/assets/projects/disney/disney4.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
-import { HiArrowCircleLeft } from "react-icons/hi";
-import Link from "next/link";
+
+import BackButton from "../components/BackButton";
 
 const twitch = () => {
   return (
@@ -22,13 +19,8 @@ const twitch = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <Link href="/#projects">
-            <div className="underline cursor-pointer absolute bottom-[98%] ">
-              {" "}
-              <HiArrowCircleLeft size={35} color="white" />
-              <p className="text-white">BACK</p>
-            </div>
-          </Link>
+          <BackButton link={"projects"} project={"yes"} />
+
           <h2 className="py-2">Disney +</h2>
           <h3>Next JS / TailwindCSS</h3>
         </div>
@@ -104,9 +96,6 @@ const twitch = () => {
             </div>
           </div>
         </div>
-        {/* <Link href="/#projects">
-          <p className="underline cursor-pointer">Back</p>
-        </Link> */}
 
         <Image
           src={disneyImg}

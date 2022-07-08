@@ -3,10 +3,6 @@ import Head from "next/head";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsHouseDoorFill } from "react-icons/bs";
 
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-
-import Link from "next/link";
-
 import SkillResume from "../components/SkillResume";
 import BackButton from "../components/BackButton";
 import InformationBanner from "../components/InformationBanner";
