@@ -1,8 +1,6 @@
 import React from "react";
-import five from "../public/assets/projects/general/layout.png";
 import Image from "next/image";
 import Link from "next/link";
-import yo from "../public/assets/yo.jpg";
 import cozy from "../public/assets/programming-cozy.jpg";
 
 const About = () => {
