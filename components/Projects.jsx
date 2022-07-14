@@ -1,6 +1,6 @@
 import React from "react";
 import Netflix from "../public/assets/projects/netflix.jpg";
-import Portfolio from "../public/assets/projects/portfolio.png";
+import Portfolio from "../public/assets/projects/portfolio.jpg";
 import ProjectItem from "./ProjectItem";
 import Uber from "../public/assets/projects/general/2.png";
 import Pinterest from "../public/assets/projects/general/4.png";
@@ -46,21 +46,21 @@ const Projects = () => {
             tools="React Native / Expo CLI / AWS Amplify / GitHub "
           />
 
-          {/* <ProjectItem
+          <ProjectItem
             title="Web Portfolio"
             image={Portfolio}
             projectUrl="/portfolio"
             tools="JavaScript /Next Js / TailwindCSS / GitHub / AWS Amplify / AWS S3  "
-          /> */}
+          />
         </div>
       </div>
-      <div className="flex w-[430px] nxs:w-full justify-center items-center ">
+      {/* <div className="flex w-[430px] nxs:w-full justify-center items-center ">
         <Link href="/projects">
           <button className="w-[90%] nxs:w-[55%] p-4 text-gray-100 mt-4  justify-center items-center text-2xl ">
             All my projects!
           </button>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };

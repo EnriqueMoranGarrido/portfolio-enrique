@@ -5,8 +5,11 @@ import Navbar from "../components/Navbar";
 
 const Resume = () => {
   return (
-    <div id="resume" className="w-[400px] nxs:w-full lg:h-screen p-2 mt-[5%] ">
-      <div className="max-w-[1240px] mx-auto flex flex-col h-full ">
+    <div
+      id="resume"
+      className="w-[440px] nxs:w-full h-full  p-2  flex items-center justify-center align-middle"
+    >
+      <div className="max-w-[1240px] mx-auto flex flex-col h-auto py-16 ">
         <p className=" py-4 uppercase  text-2xl tracking-widest  text-[#039898]">
           Resume
         </p>

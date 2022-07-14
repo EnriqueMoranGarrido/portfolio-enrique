@@ -6,9 +6,9 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className=" w-[440px] nxs:w-full lg:h-screen p-2 justify-center "
+      className=" w-[440px] nxs:w-full h-fullp-2  flex items-center justify-center align-middle"
     >
-      <div className="max-w-[1240px] mx-auto flex flex-col h-full">
+      <div className="max-w-[1240px] mx-auto flex flex-col h-auto py-16 w-full">
         <p className=" py-4 uppercase  text-2xl tracking-widest  text-[#039898]">
           Skills
         </p>

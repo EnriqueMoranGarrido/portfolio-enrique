@@ -6,7 +6,8 @@ const Main = () => {
   return (
     <div
       id="home"
-      className="w-[440px] nxs:w-full h-screen text-center items-center align-middle justify-center"
+      className="w-[440px] nxs:w-full  text-center items-center align-middle justify-center
+      h-screen py-2 p-2  flex"
     >
       <div className=" max-w-[1240px] w-full h-full mx-auto flex p-2  items-center ">
         <div className="">
@@ -28,7 +29,7 @@ const Main = () => {
             </span>
           </div>
 
-          <div className="flex items-center justify-between max-w-[90%] nxs:max-w-[550px] m-auto py-4">
+          <div className="flex items-center justify-center max-w-[100%] nxs:max-w-[550px] m-auto py-4">
             <ConnectionsSocials page={"big"} resume={"yes"} />
           </div>
         </div>

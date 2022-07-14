@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="w-[440px] nxs:w-full lg:h-screen justify-center items-center align-middle"
+      className="w-[440px] nxs:w-full  h-full justify-center items-center align-middle"
     >
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="py-4 uppercase  text-2xl tracking-widest  text-[#039898]">

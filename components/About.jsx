@@ -5,7 +5,10 @@ import cozy from "../public/assets/programming-cozy.jpg";
 
 const About = () => {
   return (
-    <div id="about" className="w-[400px] nxs:w-full justify-center ">
+    <div
+      id="about"
+      className="w-[400px] nxs:w-screen h-screen sm:w-full mt-16 items-center justify-center align-middle"
+    >
       <div className="w-full md:h-screen p-2 flex  py-16   ">
         <div className="max-w-[1240px] m-auto md:grid md:grid-cols-3 md:gap-8">
           <div className="col-span-2">
