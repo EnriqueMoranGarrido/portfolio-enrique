@@ -10,7 +10,7 @@ const About = () => {
       className="w-[400px] nxs:w-screen h-screen sm:w-full mt-16 items-center justify-center align-middle"
     >
       <div className="w-full md:h-screen p-2 flex  py-16   ">
-        <div className="max-w-[1240px] m-auto md:grid md:grid-cols-3 md:gap-8">
+        <div className="max-w-[1240px] m-auto lg:grid md:grid-cols-3 md:gap-8">
           <div className="col-span-2">
             <p className="py-4 uppercase  text-2xl tracking-widest  text-[#039898]">
               About
@@ -41,7 +41,7 @@ const About = () => {
               </p>
             </Link>
           </div>
-          <div className="hidden md:flex w-auto h-auto m-auto shadow-md shadow-gray-400 rounded-xl items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+          <div className="hidden lg:flex w-auto h-auto m-auto shadow-md shadow-gray-400 rounded-xl items-center justify-center p-4 hover:scale-105 ease-in duration-300 mt-8">
             <Image src={cozy} alt="/" />
           </div>
         </div>
