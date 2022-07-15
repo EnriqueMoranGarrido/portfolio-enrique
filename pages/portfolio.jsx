@@ -2,7 +2,6 @@ import Image from "next/image";
 import React from "react";
 import cryptoImg from "../public/assets/projects/portfolio.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
-import { HiArrowCircleLeft } from "react-icons/hi";
 import Link from "next/link";
 
 import BackButton from "../components/BackButton";
@@ -20,13 +19,7 @@ const portfolio = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <Link href="/#projects">
-            <div className="underline cursor-pointer absolute bottom-[98%] ">
-              {" "}
-              <HiArrowCircleLeft size={35} color="white" />
-              <p className="text-white">BACK</p>
-            </div>
-          </Link>
+          <BackButton link={"projects"} project={"yes"} />
           <h2 className="py-2">Web Portfolio</h2>
           <h3>
             JavaScript /Next Js / TailwindCSS / GitHub / AWS Amplify / AWS S3{" "}

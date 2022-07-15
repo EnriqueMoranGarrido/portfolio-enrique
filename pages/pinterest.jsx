@@ -2,8 +2,6 @@ import Image from "next/image";
 import React from "react";
 import pinterestImg from "../public/assets/projects/4.png";
 import { RiRadioButtonFill } from "react-icons/ri";
-import { HiArrowCircleLeft } from "react-icons/hi";
-import Link from "next/link";
 
 import BackButton from "../components/BackButton";
 

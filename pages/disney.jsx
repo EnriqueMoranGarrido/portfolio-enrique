@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import disneyImg from "../public/assets/projects/disney-portfolio.jpg";
 import disneyImg1 from "../public/assets/projects/disney/disney1.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 

@@ -2,8 +2,6 @@ import Image from "next/image";
 import React from "react";
 import twitchImg from "../public/assets/projects/twitch2-portfolio.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
-import { HiArrowCircleLeft } from "react-icons/hi";
-import Link from "next/link";
 
 import BackButton from "../components/BackButton";
 
@@ -78,9 +76,6 @@ const twitch = () => {
             </div>
           </div>
         </div>
-        {/* <Link href="/#projects">
-          <p className="underline cursor-pointer">Back</p>
-        </Link> */}
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const ProjectItem = ({ title, image, projectUrl, tools }) => {
   return (
-    <div className="hover:scale-105 ease-in duration-300">
+    <div className="hover:scale-105 ease-in duration-200">
       {" "}
       <Link href={projectUrl}>
         <div className="relative flex items-center justify-center h-auto w-[420px] nxs:w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#039898] to-[#709dff]">

@@ -2,8 +2,6 @@ import Image from "next/image";
 import React from "react";
 import uberImg from "../public/assets/projects/2.png";
 import { RiRadioButtonFill } from "react-icons/ri";
-import { HiArrowCircleLeft } from "react-icons/hi";
-import Link from "next/link";
 
 import BackButton from "../components/BackButton";
 
@@ -62,13 +60,6 @@ const crypto = () => {
             </div>
           </div>
         </div>
-        {/* <Link href="/#projects">
-          <div className="underline cursor-pointer">
-            {" "}
-            <HiArrowCircleLeft size={25} />
-            Back
-          </div>
-        </Link> */}
       </div>
     </div>
   );
