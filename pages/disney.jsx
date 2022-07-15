@@ -28,9 +28,9 @@ const twitch = () => {
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
-          <p>Project</p>
-          <h2>Overview</h2>
-          <p className="py-4 mx-auto">
+          {/* <p>Project</p> */}
+          <h2 className="my-4">Overview</h2>
+          <p className="my-4">
             This appplication was built using NEXT JS and is styled with
             Tailwind CSS, Amazon Web Services for the backend and is hosted
             using Vercel. This is mobile responsive recreation of Disney+ and

@@ -5,6 +5,8 @@ import { RiRadioButtonFill } from "react-icons/ri";
 import { HiArrowCircleLeft } from "react-icons/hi";
 import Link from "next/link";
 
+import BackButton from "../components/BackButton";
+
 const crypto = () => {
   return (
     <div className="w-full">
@@ -19,13 +21,7 @@ const crypto = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <Link href="/#projects">
-            <div className="underline cursor-pointer absolute bottom-[98%] ">
-              {" "}
-              <HiArrowCircleLeft size={35} color="white" />
-              <p className="text-white">BACK</p>
-            </div>
-          </Link>
+          <BackButton link={"projects"} project={"yes"} />
           <h2 className="py-2">Uber Eats Mobile App (Clone)</h2>
           <h3>React Native / Expo CLI / AWS Amplify</h3>
         </div>
@@ -33,7 +29,6 @@ const crypto = () => {
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
-          <p className="my-4">Project</p>
           <h2 className="my-4">Overview</h2>
           <p className="my-4">
             This is a mobile app that was built using React JS, React Native,

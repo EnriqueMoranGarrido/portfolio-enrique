@@ -5,6 +5,8 @@ import { RiRadioButtonFill } from "react-icons/ri";
 import { HiArrowCircleLeft } from "react-icons/hi";
 import Link from "next/link";
 
+import BackButton from "../components/BackButton";
+
 const twitch = () => {
   return (
     <div className="w-full">
@@ -18,13 +20,7 @@ const twitch = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <Link href="/#projects">
-            <div className="underline cursor-pointer absolute bottom-[98%] ">
-              {" "}
-              <HiArrowCircleLeft size={35} color="white" />
-              <p className="text-white">BACK</p>
-            </div>
-          </Link>
+          <BackButton link={"projects"} project={"yes"} />
           <h2 className="py-2">Twitch UI</h2>
           <h3>Next JS / TailwindCSS</h3>
         </div>
@@ -32,9 +28,8 @@ const twitch = () => {
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
-          <p>Project</p>
-          <h2>Overview</h2>
-          <p>
+          <h2 className="my-4">Overview</h2>
+          <p className="my-4">
             This appplication was built using NEXT.JS and is styled with
             Tailwind CSS. The application is hosted statically using Vercel.
             This is mobile responsive recreation of Twitch.tv and features

@@ -5,6 +5,8 @@ import { RiRadioButtonFill } from "react-icons/ri";
 import { HiArrowCircleLeft } from "react-icons/hi";
 import Link from "next/link";
 
+import BackButton from "../components/BackButton";
+
 const portfolio = () => {
   return (
     <div className="w-full">
@@ -34,9 +36,9 @@ const portfolio = () => {
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
-          <p>Project</p>
-          <h2>Overview</h2>
-          <p>
+          {/* <p>Project</p> */}
+          <h2 className="my-4">Overview</h2>
+          <p className="my-4">
             This web application was built using Next JS and is hosted on
             GitHub. This is my personal space to share with you the projects
             that I&apos;ve built and new ones that are still in progress. This
